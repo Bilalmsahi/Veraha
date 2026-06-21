@@ -1,0 +1,782 @@
+[
+  {
+    "id": "SAT-001",
+    "text": "According to the Verizon Data Breach Investigations Report, what percentage of data breaches involve a human element?",
+    "difficulty": "easy",
+    "topic": "Security Culture",
+    "options": [
+      {
+        "id": "a",
+        "text": "Around 30%"
+      },
+      {
+        "id": "b",
+        "text": "Around 50%"
+      },
+      {
+        "id": "c",
+        "text": "Over 74%"
+      },
+      {
+        "id": "d",
+        "text": "Nearly 100%"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Verizon DBIR consistently reports that over 74% of all breaches involve a human element, underscoring that people — not just technology — are central to most security failures."
+  },
+  {
+    "id": "SAT-002",
+    "text": "Which component of the CIA Triad ensures that information is accessible only to authorized users?",
+    "difficulty": "easy",
+    "topic": "CIA Triad",
+    "options": [
+      {
+        "id": "a",
+        "text": "Availability"
+      },
+      {
+        "id": "b",
+        "text": "Integrity"
+      },
+      {
+        "id": "c",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "d",
+        "text": "Authentication"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Confidentiality ensures that information is only accessible to those who are authorized to view it. This protects sensitive data from unauthorized disclosure."
+  },
+  {
+    "id": "SAT-003",
+    "text": "A ransomware attack encrypts all your files, making them inaccessible to everyone in the company. Which component of the CIA Triad is primarily affected?",
+    "difficulty": "easy",
+    "topic": "CIA Triad",
+    "options": [
+      {
+        "id": "a",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "b",
+        "text": "Integrity"
+      },
+      {
+        "id": "c",
+        "text": "Availability"
+      },
+      {
+        "id": "d",
+        "text": "Authentication"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ransomware primarily attacks Availability by making data inaccessible. While it may also threaten Confidentiality (if data is exfiltrated), the encryption that blocks access is fundamentally an availability attack."
+  },
+  {
+    "id": "SAT-004",
+    "text": "A developer modifies a production database record without going through the change management process, even though the change is correct. Which CIA Triad principle is most directly violated?",
+    "difficulty": "medium",
+    "topic": "CIA Triad",
+    "options": [
+      {
+        "id": "a",
+        "text": "Availability"
+      },
+      {
+        "id": "b",
+        "text": "Integrity"
+      },
+      {
+        "id": "c",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "d",
+        "text": "Non-repudiation"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Integrity requires that data and processes are changed only through authorized, controlled mechanisms. Bypassing change management undermines integrity controls even if the underlying change is technically correct."
+  },
+  {
+    "id": "SAT-005",
+    "text": "Which of the following is the STRONGEST password?",
+    "difficulty": "easy",
+    "topic": "Password Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "CompanyName2024"
+      },
+      {
+        "id": "b",
+        "text": "P@ssword1"
+      },
+      {
+        "id": "c",
+        "text": "T!ger$Moon@2024#Lamp"
+      },
+      {
+        "id": "d",
+        "text": "qwerty12345"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "T!ger$Moon@2024#Lamp is the strongest because it is long (20+ characters), uses a mix of uppercase, lowercase, numbers, and special characters, and is not based on predictable personal information."
+  },
+  {
+    "id": "SAT-006",
+    "text": "What is the recommended minimum length for a strong password according to best practices?",
+    "difficulty": "easy",
+    "topic": "Password Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 characters"
+      },
+      {
+        "id": "b",
+        "text": "8 characters"
+      },
+      {
+        "id": "c",
+        "text": "10 characters"
+      },
+      {
+        "id": "d",
+        "text": "14 characters"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Modern password security guidance recommends a minimum of 14 characters. Longer passwords are exponentially harder for attackers to crack using brute force methods."
+  },
+  {
+    "id": "SAT-007",
+    "text": "An employee uses the same password for their work email, personal Gmail, and online banking. A breach at a third-party website exposes this password. What type of attack could now compromise their work account?",
+    "difficulty": "medium",
+    "topic": "Password Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "SQL injection"
+      },
+      {
+        "id": "b",
+        "text": "Credential stuffing"
+      },
+      {
+        "id": "c",
+        "text": "Spear phishing"
+      },
+      {
+        "id": "d",
+        "text": "Denial of Service"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Credential stuffing uses username/password combinations stolen from one breach to attempt access on other platforms. Password reuse across accounts makes this attack extremely effective."
+  },
+  {
+    "id": "SAT-008",
+    "text": "According to Microsoft research, what percentage of automated account compromise attacks does MFA block?",
+    "difficulty": "easy",
+    "topic": "Multi-Factor Authentication",
+    "options": [
+      {
+        "id": "a",
+        "text": "Around 50%"
+      },
+      {
+        "id": "b",
+        "text": "Around 75%"
+      },
+      {
+        "id": "c",
+        "text": "99.9%"
+      },
+      {
+        "id": "d",
+        "text": "100%"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Microsoft's research shows that MFA blocks 99.9% of automated account compromise attacks, making it one of the most impactful security controls available to organizations."
+  },
+  {
+    "id": "SAT-009",
+    "text": "At 2 AM, James receives multiple MFA push notification approval requests on his phone that he did not initiate. What is the BEST response?",
+    "difficulty": "medium",
+    "topic": "Multi-Factor Authentication",
+    "options": [
+      {
+        "id": "a",
+        "text": "Approve one to confirm his identity"
+      },
+      {
+        "id": "b",
+        "text": "Ignore the notifications and go back to sleep"
+      },
+      {
+        "id": "c",
+        "text": "Deny the requests, change his password, and report to IT Security"
+      },
+      {
+        "id": "d",
+        "text": "Turn off MFA temporarily to stop the notifications"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Unsolicited MFA requests indicate someone has your password and is trying to bypass MFA through a 'MFA fatigue' attack. You should deny all requests, change your password immediately, and report to IT Security."
+  },
+  {
+    "id": "SAT-010",
+    "text": "Ranking from most to least secure, which order correctly represents MFA methods?",
+    "difficulty": "hard",
+    "topic": "Multi-Factor Authentication",
+    "options": [
+      {
+        "id": "a",
+        "text": "SMS OTP → Authenticator App → Push Notification → Hardware Security Key"
+      },
+      {
+        "id": "b",
+        "text": "Hardware Security Key → Authenticator App → Push Notification → SMS OTP"
+      },
+      {
+        "id": "c",
+        "text": "Push Notification → Hardware Security Key → SMS OTP → Authenticator App"
+      },
+      {
+        "id": "d",
+        "text": "Authenticator App → SMS OTP → Hardware Security Key → Push Notification"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Hardware security keys (FIDO2) are most secure and phishing-resistant. Authenticator apps (TOTP) are next. Push notifications are slightly weaker (susceptible to MFA fatigue). SMS is weakest due to SIM-swapping vulnerability."
+  },
+  {
+    "id": "SAT-011",
+    "text": "What does the Principle of Least Privilege mean?",
+    "difficulty": "easy",
+    "topic": "Access Control",
+    "options": [
+      {
+        "id": "a",
+        "text": "All employees should have access to all systems to improve productivity"
+      },
+      {
+        "id": "b",
+        "text": "Users should operate with the minimum access necessary to perform their job"
+      },
+      {
+        "id": "c",
+        "text": "Only IT administrators should have access to any systems"
+      },
+      {
+        "id": "d",
+        "text": "Access should be granted based on seniority"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Principle of Least Privilege means every user, system, and application should have only the minimum level of access needed to perform their required functions — nothing more."
+  },
+  {
+    "id": "SAT-012",
+    "text": "A system administrator uses their admin account for everyday tasks including browsing the internet. Why is this a security risk?",
+    "difficulty": "medium",
+    "topic": "Access Control",
+    "options": [
+      {
+        "id": "a",
+        "text": "Admin accounts are not allowed internet access"
+      },
+      {
+        "id": "b",
+        "text": "If malware is downloaded, it inherits the full admin privileges of the account"
+      },
+      {
+        "id": "c",
+        "text": "Admin accounts cannot access the internet by design"
+      },
+      {
+        "id": "d",
+        "text": "Browsing the internet is not a work-related task"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Using an admin account for everyday tasks means any malware encountered inherits full administrative privileges, dramatically increasing the potential damage. Admins should use standard accounts for daily tasks and admin accounts only when necessary."
+  },
+  {
+    "id": "SAT-013",
+    "text": "You receive an email from 'IT-Support@yourcompany-helpdesk.net' saying your account will be locked. The link goes to a site that looks exactly like your company login page. What should you do FIRST?",
+    "difficulty": "medium",
+    "topic": "Phishing",
+    "options": [
+      {
+        "id": "a",
+        "text": "Click the link and verify using your credentials to confirm it is real"
+      },
+      {
+        "id": "b",
+        "text": "Reply to the email asking if it is legitimate"
+      },
+      {
+        "id": "c",
+        "text": "Do not click the link; report the email to IT Security"
+      },
+      {
+        "id": "d",
+        "text": "Forward the email to all colleagues to warn them"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The external domain ('yourcompany-helpdesk.net' vs your actual domain) is a clear red flag. Never click suspicious links or enter credentials. Report to IT Security using official channels — not by replying to the suspicious email."
+  },
+  {
+    "id": "SAT-014",
+    "text": "What type of phishing attack specifically targets senior executives using personalized, high-quality emails?",
+    "difficulty": "easy",
+    "topic": "Phishing",
+    "options": [
+      {
+        "id": "a",
+        "text": "Smishing"
+      },
+      {
+        "id": "b",
+        "text": "Vishing"
+      },
+      {
+        "id": "c",
+        "text": "Whaling"
+      },
+      {
+        "id": "d",
+        "text": "Spear phishing"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Whaling is a highly targeted form of phishing directed specifically at senior executives (the 'big fish'). Attacks often involve impersonation of business partners, boards, or regulators, and may involve fraudulent wire transfer requests."
+  },
+  {
+    "id": "SAT-015",
+    "text": "An individual calls the IT helpdesk claiming to be the CTO, says they are traveling and urgently need their password reset. The caller ID shows a number similar to company headquarters. What is the CORRECT procedure?",
+    "difficulty": "hard",
+    "topic": "Social Engineering",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reset the password immediately since the caller ID looks correct"
+      },
+      {
+        "id": "b",
+        "text": "Verify the identity by asking for the employee ID and sending a reset link to the official email on file"
+      },
+      {
+        "id": "c",
+        "text": "Trust the caller's authority and reset as requested"
+      },
+      {
+        "id": "d",
+        "text": "Ask the caller to email the request and process it immediately"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Caller ID can be spoofed easily. Proper identity verification requires using pre-established authentication methods (employee ID verification and sending credentials to the official email on file) regardless of claimed seniority or urgency."
+  },
+  {
+    "id": "SAT-016",
+    "text": "You find a USB drive in the company parking lot labeled 'Q4 Salary Review — Confidential.' What should you do?",
+    "difficulty": "medium",
+    "topic": "Social Engineering",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plug it in on your computer to find out who it belongs to"
+      },
+      {
+        "id": "b",
+        "text": "Plug it in on a computer not connected to the network"
+      },
+      {
+        "id": "c",
+        "text": "Hand it to IT Security without plugging it in anywhere"
+      },
+      {
+        "id": "d",
+        "text": "Leave it where you found it"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "This is a classic 'baiting' attack. USB drives planted in public areas often contain malware that executes automatically when plugged in. The enticing label is designed to trigger curiosity. Hand it to IT Security without plugging it in."
+  },
+  {
+    "id": "SAT-017",
+    "text": "What is the FIRST action you should take if you see a message on your screen saying your files have been encrypted and demanding payment?",
+    "difficulty": "easy",
+    "topic": "Malware",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pay the ransom immediately to get the decryption key"
+      },
+      {
+        "id": "b",
+        "text": "Restart your computer to clear the infection"
+      },
+      {
+        "id": "c",
+        "text": "Disconnect your device from the network immediately and call IT"
+      },
+      {
+        "id": "d",
+        "text": "Try to decrypt the files yourself using online tools"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Immediate network disconnection is critical to prevent ransomware from spreading to other systems. Do not pay the ransom (there's no guarantee you'll get your files back) and do not attempt self-recovery. Call IT Security immediately."
+  },
+  {
+    "id": "SAT-018",
+    "text": "Which of the following actions is MOST likely to result in a malware infection?",
+    "difficulty": "medium",
+    "topic": "Malware",
+    "options": [
+      {
+        "id": "a",
+        "text": "Using the company VPN to access email remotely"
+      },
+      {
+        "id": "b",
+        "text": "Opening an unexpected email attachment from a known contact"
+      },
+      {
+        "id": "c",
+        "text": "Applying a software update pushed by IT"
+      },
+      {
+        "id": "d",
+        "text": "Connecting to the company Wi-Fi network"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Phishing emails with malicious attachments are a primary malware delivery mechanism. Attackers often spoof known contacts. Unexpected attachments should always be verified through a separate channel before opening."
+  },
+  {
+    "id": "SAT-019",
+    "text": "What is the keyboard shortcut to instantly lock your screen on a Windows computer?",
+    "difficulty": "easy",
+    "topic": "Device Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ctrl + Alt + Delete"
+      },
+      {
+        "id": "b",
+        "text": "Windows Key + L"
+      },
+      {
+        "id": "c",
+        "text": "Alt + F4"
+      },
+      {
+        "id": "d",
+        "text": "Ctrl + Shift + Esc"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Windows Key + L instantly locks the screen on Windows computers. On Mac, the shortcut is Control + Command + Q. Locking your screen whenever you step away — even for a minute — is a critical physical security habit."
+  },
+  {
+    "id": "SAT-020",
+    "text": "You are working from a coffee shop and need to access the company's internal HR system. What MUST you do before accessing the system?",
+    "difficulty": "medium",
+    "topic": "Remote Work Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use the coffee shop's Wi-Fi directly since it is password protected"
+      },
+      {
+        "id": "b",
+        "text": "Connect to the company VPN first"
+      },
+      {
+        "id": "c",
+        "text": "Use incognito mode in your browser"
+      },
+      {
+        "id": "d",
+        "text": "Ask the barista if the Wi-Fi is secure"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The company VPN must be connected before accessing any internal systems from external networks. Password-protected public Wi-Fi is still insecure — attackers can be on the same network. Incognito mode does not provide network-level protection."
+  },
+  {
+    "id": "SAT-021",
+    "text": "What is an 'Evil Twin' attack and how does it threaten remote workers?",
+    "difficulty": "hard",
+    "topic": "Remote Work Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "A malware that duplicates itself across shared drives"
+      },
+      {
+        "id": "b",
+        "text": "A rogue Wi-Fi access point with the same name as a legitimate network, designed to intercept traffic"
+      },
+      {
+        "id": "c",
+        "text": "A social engineering attack where two attackers work together"
+      },
+      {
+        "id": "d",
+        "text": "A type of denial-of-service attack that creates duplicate network packets"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "An Evil Twin attack uses a rogue Wi-Fi access point that mimics a legitimate network's name (SSID). When employees connect to it, their traffic is routed through the attacker's system. Using a VPN makes this attack much harder to exploit effectively."
+  },
+  {
+    "id": "SAT-022",
+    "text": "An attacker who compromises your email account often sets up what type of rule to maintain persistent access to your communications?",
+    "difficulty": "medium",
+    "topic": "Secure Email",
+    "options": [
+      {
+        "id": "a",
+        "text": "Out-of-office auto-reply"
+      },
+      {
+        "id": "b",
+        "text": "Email forwarding rules to an external address"
+      },
+      {
+        "id": "c",
+        "text": "Spam filter modifications"
+      },
+      {
+        "id": "d",
+        "text": "Calendar sharing rules"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Attackers frequently set up hidden forwarding rules to silently copy all incoming email to an external address. These rules persist even after a password change, making it critical to review and audit your email forwarding settings regularly."
+  },
+  {
+    "id": "SAT-023",
+    "text": "Which data classification level applies to customer payment card information and employee Social Security numbers?",
+    "difficulty": "easy",
+    "topic": "Data Classification",
+    "options": [
+      {
+        "id": "a",
+        "text": "Public"
+      },
+      {
+        "id": "b",
+        "text": "Internal"
+      },
+      {
+        "id": "c",
+        "text": "Confidential"
+      },
+      {
+        "id": "d",
+        "text": "Restricted (Highly Confidential)"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Payment card data and Social Security numbers are among the most sensitive data types, classified as Restricted (Highly Confidential). They require the strictest controls: encrypted storage, need-to-know access, and detailed audit logs."
+  },
+  {
+    "id": "SAT-024",
+    "text": "An employee saves a document containing customer PII to their personal Google Drive to work on it from home. What policies does this violate?",
+    "difficulty": "medium",
+    "topic": "Data Classification",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the Remote Work Policy"
+      },
+      {
+        "id": "b",
+        "text": "Data Classification Policy and Acceptable Use Policy"
+      },
+      {
+        "id": "c",
+        "text": "Only the Data Retention Policy"
+      },
+      {
+        "id": "d",
+        "text": "No policy — working from home is authorized"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Storing Restricted data on personal, unauthorized cloud storage violates the Data Classification Policy (which requires secure, approved storage) and the Acceptable Use Policy (which prohibits using personal tools for sensitive work data)."
+  },
+  {
+    "id": "SAT-025",
+    "text": "Which of the following MUST be reported as a security incident?",
+    "difficulty": "easy",
+    "topic": "Incident Reporting",
+    "options": [
+      {
+        "id": "a",
+        "text": "Receiving a spam email that went to your junk folder"
+      },
+      {
+        "id": "b",
+        "text": "Accidentally sending an email containing customer names to the wrong recipient"
+      },
+      {
+        "id": "c",
+        "text": "Forgetting your password and having IT reset it"
+      },
+      {
+        "id": "d",
+        "text": "Using the wrong printer for a non-sensitive document"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Accidentally sending an email with customer names (PII) to the wrong recipient is a data breach event that must be reported immediately. Even accidental disclosures can trigger compliance requirements including breach notification."
+  },
+  {
+    "id": "SAT-026",
+    "text": "An employee clicks a phishing link but the page gave an error. They think nothing happened. What should they do?",
+    "difficulty": "medium",
+    "topic": "Incident Reporting",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nothing, since the page gave an error the attack probably failed"
+      },
+      {
+        "id": "b",
+        "text": "Change their password as a precaution"
+      },
+      {
+        "id": "c",
+        "text": "Report it to IT Security immediately even if nothing obvious happened"
+      },
+      {
+        "id": "d",
+        "text": "Run a quick antivirus scan and return to work"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Even if a phishing page gives an error, malware may have been silently downloaded or credentials may have been captured before the error. All phishing interactions — clicked links, opened attachments, entered credentials — must be reported immediately to IT Security."
+  },
+  {
+    "id": "SAT-027",
+    "text": "Which combination of behaviors should raise the MOST concern about a potential insider threat?",
+    "difficulty": "hard",
+    "topic": "Insider Threats",
+    "options": [
+      {
+        "id": "a",
+        "text": "Staying late to finish a project and asking for help with a technical tool"
+      },
+      {
+        "id": "b",
+        "text": "Downloading large volumes of data, accessing systems outside normal hours, and expressing grievances about being passed over for promotion"
+      },
+      {
+        "id": "c",
+        "text": "Using a personal phone for work calls and occasionally working from home"
+      },
+      {
+        "id": "d",
+        "text": "Requesting temporary access to a system for a cross-departmental project"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The combination of anomalous data access patterns (large downloads, off-hours access to systems) combined with a personal motive (grievance over promotion) represents a significant insider threat risk profile that should be reported to security."
+  },
+  {
+    "id": "SAT-028",
+    "text": "A colleague you don't recognize asks you to hold the secured office door open for them because their hands are full. What should you do?",
+    "difficulty": "easy",
+    "topic": "Physical Security",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hold the door — it would be rude not to help a colleague"
+      },
+      {
+        "id": "b",
+        "text": "Ask them to badge in and offer to help carry their items"
+      },
+      {
+        "id": "c",
+        "text": "Hold the door but ask their name afterward"
+      },
+      {
+        "id": "d",
+        "text": "Ignore the situation since they look like an employee"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Tailgating is a physical security attack where unauthorized individuals gain access by following authorized employees. Everyone must badge in, even if their hands are full. Politely offer to help carry items while they badge in themselves."
+  },
+  {
+    "id": "SAT-029",
+    "text": "Which of the following activities is explicitly PROHIBITED under a standard Acceptable Use Policy?",
+    "difficulty": "medium",
+    "topic": "Acceptable Use Policy",
+    "options": [
+      {
+        "id": "a",
+        "text": "Briefly checking a personal email during lunch using the company network"
+      },
+      {
+        "id": "b",
+        "text": "Using the company laptop to mine cryptocurrency in the background"
+      },
+      {
+        "id": "c",
+        "text": "Working on company documents from an approved remote location"
+      },
+      {
+        "id": "d",
+        "text": "Attending a personal video call after work hours on a company device"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Cryptocurrency mining on company hardware is explicitly prohibited. It consumes significant system resources, degrades performance, can introduce malware, and represents unauthorized use of company assets for personal financial gain."
+  },
+  {
+    "id": "SAT-030",
+    "text": "Under SOC 2 Trust Service Criteria and ISO 27001 requirements, why must access rights be reviewed periodically?",
+    "difficulty": "hard",
+    "topic": "SOC 2 / ISO 27001 Compliance",
+    "options": [
+      {
+        "id": "a",
+        "text": "To comply with password rotation requirements"
+      },
+      {
+        "id": "b",
+        "text": "To ensure that access privileges remain appropriate as roles change and to remove unnecessary access that could be exploited"
+      },
+      {
+        "id": "c",
+        "text": "To generate reports for marketing purposes"
+      },
+      {
+        "id": "d",
+        "text": "To identify employees who are not using their accounts"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Periodic access reviews are a core control in both SOC 2 (CC6.2, CC6.3) and ISO 27001 (A.9.2.5). They ensure access remains aligned with current job responsibilities, and that access granted for past roles or projects is promptly revoked, reducing the attack surface."
+  }
+]

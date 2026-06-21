@@ -1,0 +1,15 @@
+/**
+ * Validators Folder
+ * 
+ * This folder contains Zod validation schemas for the server.
+ * These schemas should be kept in sync with the schemas in:
+ * /client/src/schemas
+ * 
+ * Since we can't import TypeScript files directly into JavaScript,
+ * we maintain separate but synchronized validation schemas.
+ * 
+ * Example structure:
+ * - validators/userValidator.js
+ * - validators/authValidator.js
+ * - validators/controlValidator.js
+ */

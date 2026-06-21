@@ -1,0 +1,114 @@
+@import "../index.css";
+
+/* =============================================================================
+   Veraha Security – Typography & Global Utilities
+   Theme variables come from index.css (:root / .dark)
+   ============================================================================= */
+
+@theme {
+  /* Typography – STRICT: Playfair for headings, Poppins for UI/body */
+  --font-heading: "Playfair Display", serif;
+  --font-sans: "Poppins", sans-serif;
+
+  /* Brand color tokens (for direct use; semantic vars use --primary etc.) */
+  --color-veraha-teal: #409ba1;
+  --color-veraha-forest: #3a5255;
+  --color-veraha-sand: #d3c6aa;
+  --color-veraha-sand-ultra: #fdfbf7;
+  --color-veraha-forest-midnight: #162223;
+
+  /* Status semantics (theme-agnostic) */
+  --color-success: #1f9e77;
+  --color-success-soft: #e6f5f1;
+  --color-error: #e5484d;
+  --color-error-soft: #fdecee;
+  --color-warning: #f5a623;
+  --color-warning-soft: #fff7e6;
+}
+
+@layer base {
+  /* STRICT typography: h1/h2 = Playfair Display, rest = Poppins */
+  h1,
+  h2 {
+    @apply font-heading font-bold tracking-tight;
+  }
+
+  h3,
+  h4,
+  p,
+  span,
+  button,
+  input,
+  label,
+  select,
+  textarea {
+    @apply font-sans;
+  }
+
+  /* Body: base + minimal radial gradient for depth (fixed, top-center glow) */
+  body {
+    @apply transition-colors duration-300 antialiased font-sans;
+    background-color: var(--background);
+    background-image: radial-gradient(
+      circle at 50% 0%,
+      rgba(64, 155, 161, 0.06) 0%,
+      transparent 60%
+    );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--foreground);
+  }
+
+  /* Dark mode: subtle forest teal glow at top */
+  .dark body {
+    background-image: radial-gradient(
+      circle at 50% 0%,
+      rgba(58, 82, 85, 0.2) 0%,
+      transparent 60%
+    );
+  }
+
+  /* Focus ring uses semantic primary (Teal in light, Beige in dark) */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-offset-2;
+    --tw-ring-color: var(--ring);
+    --tw-ring-offset-color: var(--background);
+  }
+
+  /* Veraha card utility – 1px border, minimal elevation */
+  .v-card {
+    @apply rounded-lg border border-border;
+    background-color: var(--card);
+  }
+}
+
+@layer components {
+  .policy-editor-tinymce,
+  .policy-editor-tinymce > textarea,
+  .policy-editor-tinymce .tox.tox-tinymce {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .policy-editor-tinymce .tox.tox-tinymce {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .policy-editor-tinymce .tox-editor-container,
+  .policy-editor-tinymce .tox-sidebar-wrap {
+    min-height: 0;
+  }
+
+  .policy-editor-tinymce .tox-edit-area {
+    min-height: 0;
+  }
+}
+
+/* Dark mode status soft backgrounds */
+.dark {
+  --color-success-soft: rgba(31, 158, 119, 0.16);
+  --color-error-soft: rgba(229, 72, 77, 0.18);
+  --color-warning-soft: rgba(245, 166, 35, 0.18);
+}

@@ -1,0 +1,2825 @@
+{
+  "generatedAt": "2026-02-28T05:32:45.646Z",
+  "source": "seeding-from-network-tab",
+  "controlCatalog": [
+    {
+      "identifier": "asset-disposal-procedures-utilized",
+      "title": "Asset disposal procedures utilized",
+      "shorthandName": "AST-1"
+    },
+    {
+      "identifier": "data-retention-procedures-established",
+      "title": "Data retention procedures established",
+      "shorthandName": "AST-2"
+    },
+    {
+      "identifier": "production-inventory-maintained",
+      "title": "Production inventory maintained",
+      "shorthandName": "AST-3"
+    },
+    {
+      "identifier": "device-media-disposal",
+      "title": "Device and media disposal policies implemented",
+      "shorthandName": "AST-12"
+    },
+    {
+      "identifier": "device-media-movement",
+      "title": "Device and media movement recorded",
+      "shorthandName": "AST-13"
+    },
+    {
+      "identifier": "media-re-use",
+      "title": "Media re-use procedures implemented",
+      "shorthandName": "AST-14"
+    },
+    {
+      "identifier": "media-removal",
+      "title": "Media removal policies implemented",
+      "shorthandName": "AST-15"
+    },
+    {
+      "identifier": "production-inventory-maintained-gdpr",
+      "title": "Production inventory maintained",
+      "shorthandName": "AST-45"
+    },
+    {
+      "identifier": "countries-international-organizations-pii-stored-for-processor",
+      "title": "Article 30 Records of processing activitiesCountries and international organizations to which PII can be stored for processor",
+      "shorthandName": "AST-46"
+    },
+    {
+      "identifier": "countries-and-international-organizations-to-which-pii-can-be-transferred-for-controller",
+      "title": "Countries and international organizations to which PII can be transferred for controller",
+      "shorthandName": "AST-47"
+    },
+    {
+      "identifier": "records-of-transfer-of-pii",
+      "title": "Records of transfer of PII",
+      "shorthandName": "AST-48"
+    },
+    {
+      "identifier": "data-inventory",
+      "title": "Data inventory",
+      "shorthandName": "AST-49"
+    },
+    {
+      "identifier": "95gl3uru",
+      "title": "Determining the scope of the information security management system",
+      "shorthandName": "AST-65"
+    },
+    {
+      "identifier": "duwec37o",
+      "title": "Inventory of information and other associated assets",
+      "shorthandName": "AST-66"
+    },
+    {
+      "identifier": "23wj3sby",
+      "title": "Return of assets",
+      "shorthandName": "AST-67"
+    },
+    {
+      "identifier": "gonqt473",
+      "title": "Intellectual property rights",
+      "shorthandName": "AST-68"
+    },
+    {
+      "identifier": "dzm2dexq",
+      "title": "Security of assets off-premises",
+      "shorthandName": "AST-69"
+    },
+    {
+      "identifier": "rol0zubt",
+      "title": "Storage media",
+      "shorthandName": "AST-70"
+    },
+    {
+      "identifier": "2yosmk08",
+      "title": "Secure disposal or re-use of equipment",
+      "shorthandName": "AST-71"
+    },
+    {
+      "identifier": "continuity-and-disaster-recovery-plans-established",
+      "title": "Continuity and Disaster Recovery plans established",
+      "shorthandName": "BCD-1"
+    },
+    {
+      "identifier": "continuity-disaster-recovery-plans-tested",
+      "title": "Continuity and disaster recovery plans tested",
+      "shorthandName": "BCD-2"
+    },
+    {
+      "identifier": "cybersecurity-insurance-maintained",
+      "title": "Cybersecurity insurance maintained",
+      "shorthandName": "BCD-3"
+    },
+    {
+      "identifier": "database-replication-utilized",
+      "title": "Database replication utilized",
+      "shorthandName": "BCD-4"
+    },
+    {
+      "identifier": "production-data-backups-conducted",
+      "title": "Production data backups conducted",
+      "shorthandName": "BCD-5"
+    },
+    {
+      "identifier": "system-multiple-availability-zones",
+      "title": "Production multi-availability zones established",
+      "shorthandName": "BCD-6"
+    },
+    {
+      "identifier": "application-and-data-criticality-analysis",
+      "title": "Application and data criticality analyzed",
+      "shorthandName": "BCD-12"
+    },
+    {
+      "identifier": "contingency-operations",
+      "title": "Contingency operations established",
+      "shorthandName": "BCD-13"
+    },
+    {
+      "identifier": "contingency-plan",
+      "title": "Contingency plan established",
+      "shorthandName": "BCD-14"
+    },
+    {
+      "identifier": "contingency-plan-testing-and-revision-procedure",
+      "title": "Contingency plan tested and revised",
+      "shorthandName": "BCD-15"
+    },
+    {
+      "identifier": "data-backup-and-storage",
+      "title": "Data backed up and stored",
+      "shorthandName": "BCD-16"
+    },
+    {
+      "identifier": "data-backup-plan",
+      "title": "Data backup plan implemented",
+      "shorthandName": "BCD-17"
+    },
+    {
+      "identifier": "disaster-recovery-plan",
+      "title": "Disaster recovery plan established",
+      "shorthandName": "BCD-18"
+    },
+    {
+      "identifier": "emergency-mode-operation-plan",
+      "title": "Emergency mode operation plan established",
+      "shorthandName": "BCD-19"
+    },
+    {
+      "identifier": "continuity-and-disaster-recovery-plans-established-gdpr",
+      "title": "Continuity and Disaster Recovery plans established",
+      "shorthandName": "BCD-22"
+    },
+    {
+      "identifier": "continuity-disaster-recovery-plans-tested-gdpr",
+      "title": "Continuity and Disaster Recovery plans tested annually",
+      "shorthandName": "BCD-23"
+    },
+    {
+      "identifier": "9t2qdzle",
+      "title": "ICT readiness for business continuity",
+      "shorthandName": "BCD-68"
+    },
+    {
+      "identifier": "o7ssnlfi",
+      "title": "Information backup",
+      "shorthandName": "BCD-69"
+    },
+    {
+      "identifier": "oufs0z8u",
+      "title": "Redundancy of information processing facilities",
+      "shorthandName": "BCD-70"
+    },
+    {
+      "identifier": "system-capacity-reviewed",
+      "title": "System capacity reviewed",
+      "shorthandName": "CAP-1"
+    },
+    {
+      "identifier": "fpa4156z",
+      "title": "Capacity management",
+      "shorthandName": "CAP-7"
+    },
+    {
+      "identifier": "configuration-management-system-established",
+      "title": "Configuration management system established",
+      "shorthandName": "CFG-1"
+    },
+    {
+      "identifier": "policies-password-complexity-gdpr",
+      "title": "Password policy enforced",
+      "shorthandName": "CFG-19"
+    },
+    {
+      "identifier": "hrnf9oqw",
+      "title": "Configuration management",
+      "shorthandName": "CFG-44"
+    },
+    {
+      "identifier": "change-management-procedures",
+      "title": "Change management procedures enforced",
+      "shorthandName": "CHG-1"
+    },
+    {
+      "identifier": "changes-approval-required",
+      "title": "Production deployment access restricted",
+      "shorthandName": "CHG-2"
+    },
+    {
+      "identifier": "development-lifecycle-established",
+      "title": "Development lifecycle established",
+      "shorthandName": "CHG-3"
+    },
+    {
+      "identifier": "knlhbqw2",
+      "title": "Planning of Changes",
+      "shorthandName": "CHG-37"
+    },
+    {
+      "identifier": "voxc3tc6",
+      "title": "Installation of software on operational systems",
+      "shorthandName": "CHG-38"
+    },
+    {
+      "identifier": "sbjgr7xz",
+      "title": "Change management",
+      "shorthandName": "CHG-39"
+    },
+    {
+      "identifier": "zrx7kjgo",
+      "title": "Information security for use of cloud services",
+      "shorthandName": "CLD-7"
+    },
+    {
+      "identifier": "system-description",
+      "title": "SOC 2 - System Description",
+      "shorthandName": "CPL-1"
+    },
+    {
+      "identifier": "whistleblower-policy-established",
+      "title": "Whistleblower policy established",
+      "shorthandName": "CPL-2"
+    },
+    {
+      "identifier": "security-controls-evaluation",
+      "title": "Security controls evaluated",
+      "shorthandName": "CPL-10"
+    },
+    {
+      "identifier": "return-transfer-or-disposal-of-pii",
+      "title": "Return, transfer or disposal of PII",
+      "shorthandName": "CPL-17"
+    },
+    {
+      "identifier": "identify-lawful-basis",
+      "title": "Identify lawful basis",
+      "shorthandName": "CPL-18"
+    },
+    {
+      "identifier": "limit-collection",
+      "title": "Limit collection",
+      "shorthandName": "CPL-19"
+    },
+    {
+      "identifier": "pii-minimization-objectives",
+      "title": "PII minimization",
+      "shorthandName": "CPL-20"
+    },
+    {
+      "identifier": "pii-deidentification-deletion-at-the-end-of-processing",
+      "title": "PII de-identification and deletion at the end of processing",
+      "shorthandName": "CPL-21"
+    },
+    {
+      "identifier": "retention",
+      "title": "Retention of PII",
+      "shorthandName": "CPL-22"
+    },
+    {
+      "identifier": "disposal",
+      "title": "Disposal of PII",
+      "shorthandName": "CPL-23"
+    },
+    {
+      "identifier": "eu-representatitve",
+      "title": "Appoint EU representative",
+      "shorthandName": "CPL-24"
+    },
+    {
+      "identifier": "lead-supervisory-authority",
+      "title": "Appoint EU lead supervisory authority",
+      "shorthandName": "CPL-25"
+    },
+    {
+      "identifier": "customer-data-deleted-upon-leave-gdpr",
+      "title": "Customer data deleted upon leave",
+      "shorthandName": "CPL-26"
+    },
+    {
+      "identifier": "7mi2nbsh",
+      "title": "Internal Audit - General",
+      "shorthandName": "CPL-41"
+    },
+    {
+      "identifier": "nqkiqbmz",
+      "title": "Internal Audit Program",
+      "shorthandName": "CPL-42"
+    },
+    {
+      "identifier": "pb10fioj",
+      "title": "Nonconformity and corrective action",
+      "shorthandName": "CPL-43"
+    },
+    {
+      "identifier": "p87muahm",
+      "title": "Legal, statutory, regulatory and contractual requirements",
+      "shorthandName": "CPL-44"
+    },
+    {
+      "identifier": "7pn1c8nr",
+      "title": "Independent review of information security",
+      "shorthandName": "CPL-45"
+    },
+    {
+      "identifier": "9yz4l6l3",
+      "title": "Compliance with policies, rules and standards for information security",
+      "shorthandName": "CPL-46"
+    },
+    {
+      "identifier": "dzsaee29",
+      "title": "Protection of information systems during audit testing",
+      "shorthandName": "CPL-47"
+    },
+    {
+      "identifier": "jxei7q48",
+      "title": "Required Contribution for Binding Arbitration Mechanism",
+      "shorthandName": "CPL-56"
+    },
+    {
+      "identifier": "rt205ubq",
+      "title": "Annual Verification of DPF Compliance",
+      "shorthandName": "CPL-57"
+    },
+    {
+      "identifier": "4g7uefoq",
+      "title": "Designate a DPF Contact",
+      "shorthandName": "CPL-58"
+    },
+    {
+      "identifier": "2vbk7als",
+      "title": "Internal Privacy Policy",
+      "shorthandName": "CPL-59"
+    },
+    {
+      "identifier": "access-datastores-ssh",
+      "title": "Unique production database authentication enforced",
+      "shorthandName": "CRY-1"
+    },
+    {
+      "identifier": "access-encryption-keys",
+      "title": "Encryption key access restricted",
+      "shorthandName": "CRY-2"
+    },
+    {
+      "identifier": "assets-portable-media-encrypted",
+      "title": "Portable media encrypted",
+      "shorthandName": "CRY-3"
+    },
+    {
+      "identifier": "data-encrypted",
+      "title": "Data encryption utilized",
+      "shorthandName": "CRY-4"
+    },
+    {
+      "identifier": "unique-account-authentication-enforced",
+      "title": "Unique account authentication enforced",
+      "shorthandName": "CRY-5"
+    },
+    {
+      "identifier": "data-encryption-decryption",
+      "title": "Encryption and decryption controls implemented",
+      "shorthandName": "CRY-12"
+    },
+    {
+      "identifier": "data-transmission-encrypted",
+      "title": "Data transmission encrypted",
+      "shorthandName": "CRY-13"
+    },
+    {
+      "identifier": "data-transmission-integrity",
+      "title": "Data transmission integrity maintained",
+      "shorthandName": "CRY-14"
+    },
+    {
+      "identifier": "data-transmission-security",
+      "title": "Data transmission secured",
+      "shorthandName": "CRY-15"
+    },
+    {
+      "identifier": "pii-transmission-controls-for-processor",
+      "title": "PII transmission controls for processor",
+      "shorthandName": "CRY-54"
+    },
+    {
+      "identifier": "pii-transmission-controls-for-controller",
+      "title": "PII transmission controls for controller",
+      "shorthandName": "CRY-55"
+    },
+    {
+      "identifier": "data-encrypted-gdpr",
+      "title": "Data encryption utilized",
+      "shorthandName": "CRY-56"
+    },
+    {
+      "identifier": "remote-access-vpn-enforced-gdpr",
+      "title": "Remote access encrypted enforced",
+      "shorthandName": "CRY-57"
+    },
+    {
+      "identifier": "data-encrypted-in-transit-gdpr",
+      "title": "Data transmission encrypted",
+      "shorthandName": "CRY-58"
+    },
+    {
+      "identifier": "nogvv3hw",
+      "title": "Information transfer",
+      "shorthandName": "CRY-91"
+    },
+    {
+      "identifier": "07i98tv1",
+      "title": "Use of cryptography",
+      "shorthandName": "CRY-92"
+    },
+    {
+      "identifier": "customer-data-deleted-upon-leave",
+      "title": "Customer data deleted upon leaving",
+      "shorthandName": "DCH-1"
+    },
+    {
+      "identifier": "customer-data-retained",
+      "title": "Customer data retained",
+      "shorthandName": "DCH-2"
+    },
+    {
+      "identifier": "customer-transaction-modifications-restricted",
+      "title": "Customer transaction modifications restricted",
+      "shorthandName": "DCH-3"
+    },
+    {
+      "identifier": "customer-transactions-portal-available",
+      "title": "Customer transaction portal available",
+      "shorthandName": "DCH-4"
+    },
+    {
+      "identifier": "data-classification-policy",
+      "title": "Data classification policy established",
+      "shorthandName": "DCH-5"
+    },
+    {
+      "identifier": "data-deletion-requests-handled",
+      "title": "Data deletion requests handled",
+      "shorthandName": "DCH-6"
+    },
+    {
+      "identifier": "personal-information-changes-communicated",
+      "title": "Personal information changes communicated",
+      "shorthandName": "DCH-7"
+    },
+    {
+      "identifier": "privacy-identity-verification",
+      "title": "Identity verification conducted",
+      "shorthandName": "DCH-8"
+    },
+    {
+      "identifier": "privacy-inquiries-handled",
+      "title": "Privacy inquiries handled",
+      "shorthandName": "DCH-9"
+    },
+    {
+      "identifier": "privacy-sensitive-data-disposal",
+      "title": "Personal information securely disposed",
+      "shorthandName": "DCH-10"
+    }
+  ],
+  "documents": [
+    {
+      "externalId": "isms-management-review",
+      "title": "Management review of ISMS",
+      "description": "Provide evidence of your most recent, periodic review of the ISMS by management, as outlined in your management review policy.\nGuidance: Establish a management review policy and ensure meetings take place on a periodic basis with documentation on the results of the meeting.\nA template can be found here: [Google docs template](https://docs.google.com/document/d/1uYyrSqE0cdRfXl5Qf7etuf_y0satMglyCq5cVV_fY4k/copy)",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2026-12-23T22:12:41.471Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "9yz4l6l3",
+        "m7cfnwkq",
+        "steival4",
+        "u7dltb40"
+      ]
+    },
+    {
+      "externalId": "nda-template-internal",
+      "title": "Internal non-disclosure agreement template",
+      "description": "",
+      "category": "Procedure",
+      "status": "APPROVED",
+      "validUntil": "2026-12-24T18:43:52.519Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "nda-template-external",
+      "title": "External non-disclosure agreement template",
+      "description": "",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2026-12-24T18:46:04.902Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "iso-cert-infra",
+      "title": "ISO certification from infrastructure provider",
+      "description": "",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2026-12-24T20:07:03.861Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "application-session-timeout",
+      "title": "Application session timeout",
+      "description": "",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2026-01-09T21:30:24.664Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001",
+        "HIPAA"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "external-alerts-reviewed",
+      "title": "A process exists to identify and prioritize security vulnerabilities",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2026-04-06T01:14:28.812Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "security-association-memberships",
+      "title": "Security association membership",
+      "description": "Provide proof of membership in at least one recognized security association, e.g., ISACA, AITP, ITIL, by at least one Information Security team member.",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2027-01-05T01:22:02.298Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "5sd6imyl",
+        "mjnl61h4"
+      ]
+    },
+    {
+      "externalId": "version-control-system-access-reviews",
+      "title": "Version control system access review",
+      "description": "Please provide evidence of the last access review performed on your version control system(s).",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-05T01:30:11.690Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "axwe26mw"
+      ]
+    },
+    {
+      "externalId": "669e368dcc220a615db5e4c6",
+      "title": "MFA enabled",
+      "description": "MFA enabled on GCP,  Github and Gitlab. Do you have evidence that employees have MFA enabled for these systems?",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-05T01:31:34.731Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": [
+        "remote-access-mfa-enforced"
+      ]
+    },
+    {
+      "externalId": "66a796a531653806cba99c9f",
+      "title": "Cloudflare",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-05T01:36:40.610Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "669e3591494e01100801b09d",
+      "title": "password policy",
+      "description": "Vendors password policies",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2025-07-22T10:35:03.008Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": [
+        "policies-password-complexity"
+      ]
+    },
+    {
+      "externalId": "security-distribution-lists",
+      "title": "Security newsletter / group subscription",
+      "description": "Provide screenshots of emails from two different security-related subscriptions received by Information Security team members.\nExamples: Krebs on Security, NIST, US Cert, CISA, Security-focused Slack channels.",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2027-01-05T01:41:35.743Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "5sd6imyl",
+        "mjnl61h4"
+      ]
+    },
+    {
+      "externalId": "policies-storage-location-and-view",
+      "title": "Proof of policy availability to employees",
+      "description": "Provide evidence demonstrating that company policies, including the information security policy and topic-specific policies, are accessible to all employees. The evidence should confirm that policies are published in a centralized location, easily reachable, and consistently maintained for employee access.\nAcceptable Evidence Includes:\n- Screenshots of the internal wiki or documentation portal (e.g., Confluence, SharePoint, Google Drive, intranet site) showing where policies are stored.\n- A table of contents or directory listing available policies.\n- Access control settings confirming that all employees have read permissions.\n- Screenshots of internal announcements (e.g., email, Slack, Teams messages) informing employees where policies are located.\n- Screenshots of onboarding materials that direct new employees to the policy repository.\n- Records of employee acknowledgments confirming they have accessed and reviewed policies.\nNote: If this is handled within Vanta, simply \"Add URL\" to the [onboarding page](/employee/onboarding).\nAudit Consideration: During your audit window, be prepared to re-upload evidence for at least a 10% of your employees, contractors and applicable third party users to confirm they can access these policies, as randomly selected and requested by your auditor.",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-05T01:43:48.522Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "ihtowh2e"
+      ]
+    },
+    {
+      "externalId": "supplier-agreements",
+      "title": "Supplier/vendor agreements",
+      "description": "Provide a recent agreement signed with one of your service providers that outlines the division of cybersecurity and technology risk management responsibilities.\nGuidance: This may include service agreements with vendors such as:\n- Your cloud platform provider (e.g., AWS, Azure, GCP)\n- Your database provider (e.g., Snowflake)\n- Your monitoring or infrastructure services (e.g., Datadog, Cloudflare)\nThe agreement should show how responsibilities for security controls, incident response, data protection, and system availability are shared between your organization and the provider.",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2026-01-22T12:20:31.994Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "v9blvnxj"
+      ]
+    },
+    {
+      "externalId": "access-reviews-planned",
+      "title": "Planned access review",
+      "description": "Provide a ticket or calendar invite demonstrating that a periodic access review was planned and completed.\nGuidance: For additional information on how to fulfill this evidence request, see this guiding document: [Google docs template](https://docs.google.com/document/d/1DjWe3WgW1H6Q3jiNmPptUfUo3H_McvJ-YEO_NzRyk9s/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1DjWe3WgW1H6Q3jiNmPptUfUo3H_McvJ-YEO_NzRyk9s/export?format=docx).\nNote: Current access data can be exported from the [Access](/access) page",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2026-04-08T00:45:16.901Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "xtd1rde4",
+        "mwwihowm",
+        "zxjp1hkl"
+      ]
+    },
+    {
+      "externalId": "671babb35be4ff4b018a3bd6",
+      "title": "Privileged Access List",
+      "description": "Members with admin privilege who have access to sensitive data",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T00:55:09.572Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "zxjp1hkl"
+      ]
+    },
+    {
+      "externalId": "671ba88449e4cb6d68068f88",
+      "title": "AWS Cloud Security",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T00:56:33.612Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "pre-hire-competence-evaluation",
+      "title": "Competence is evaluated prior to offer and hiring",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T01:14:10.819Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "leadership-competence-qualifications-or-evaluation-or-evidence",
+      "title": "ISMS and security program leadership qualifications",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T01:15:01.985Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "privileged-user-list",
+      "title": "Privileged user lists generated",
+      "description": "Provide a screenshot or system export showing the administrative users for all in-scope systems and applications. You should consider users of all types, including business partners, service accounts, vendor and third party accounts, contractors, and employees.\nGuidance: Typical in-scope systems include:\n1. Background checkers\n2. Cloud providers\n3. Communication platforms\n4. CRM platforms\n5. Database/Data warehouse providers\n6. Endpoint security tools\n7. HRIS\n8. Identity providers\n9. MDM tools\n10. Vulnerability scanners\n11. SIEM tools\n12. Version control systems\n13. DevOps tools\n14. Document repositories\nGuidance: Ensure that the privileged access configured for your in-scope systems is based on active and current roles & responsibilities of those assigned individuals. If there are newly added individuals, ensure that you followed your access provisioning process to create / modify the accounts, and removed any personnel that did not require the access anymore. \nAudit Consideration: During your audit window, be prepared to re-upload evidence for at least a 10% of your privileged user accounts, as randomly selected and requested by your auditor.\nNote: This evidence is only required for admin users of tools that have not been connected to Vanta via the integrations page. For tools that have been integrated into Vanta, no additional evidence is needed for this document. \nA template can be found here: [Google docs template](https://docs.google.com/document/d/1kzPRGg3-AaIx9IqAFCnZrFvriXHLgyzbONn2X5x9SWQ/copy)",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T01:19:42.475Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "zxjp1hkl"
+      ]
+    },
+    {
+      "externalId": "access-application-admin",
+      "title": "Customer account access request",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T14:03:38.931Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "system-activity-log-settings",
+      "title": "Enabled automated log alerting",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T14:58:39.961Z",
+      "tags": [
+        "SOC2",
+        "ISO27001",
+        "HIPAA"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "administrative-account-use-tracked",
+      "title": "Administrative account non-repudiation",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T15:01:52.976Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "network-segregation",
+      "title": "Network segregation",
+      "description": "Provide evidence demonstrating that the production network is segregated from other environments (e.g., development, testing, corporate networks).\nAcceptable evidence can include:\n- A network topology diagram showing how production, development, and other environments are separated.\n- Labels identifying firewalls, VLANs, subnets, DMZs, and restricted access controls.\n- Screenshots of firewall rules, security groups, or network ACLs that enforce segregation between production and non-production environments.\n- Screenshots or configurations showing Virtual Private Clouds (VPCs), Security Groups, and Network ACLs in AWS, Azure, or GCP.\n- Subnet configurations demonstrating that production workloads are isolated within private subnets.\n- Routing tables confirming restricted access between production and non-production environments.\n- Evidence of Virtual Network Peering or AWS PrivateLink enforcing private, internal-only communication.\n- Logs from SIEM, firewalls, or cloud security tools showing restricted traffic flow between production and other networks.\nA template can be found here: [Google docs template](https://docs.google.com/document/d/1q_7KCd0KKwfY3n7JOYfMIDYYdUbsEcoL75MHYd5kTMs/copy)",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T15:14:35.456Z",
+      "tags": [
+        "SOC2",
+        "ISO27001",
+        "ISO27001",
+        "GDPR"
+      ],
+      "controlIdentifiers": [
+        "infra-network-segregation",
+        "jqyhc6kq",
+        "k3eilu6n",
+        "sbiopz10",
+        "infra-network-segregation-gdpr"
+      ]
+    },
+    {
+      "externalId": "quality-assurance-qa-acceptance-testing-example",
+      "title": "QA and acceptance testing",
+      "description": "Provide evidence that an approved change has successfully undergone acceptance testing before deployment. This should include security test results demonstrating that functional, performance, and security requirements were met. \nSecurity testing should cover common vulnerabilities such as those outlined in the OWASP Top 10, as well as any organization-specific security controls, compliance requirements, and risk mitigation measures.",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T15:22:09.567Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "sbjgr7xz",
+        "ise32uno",
+        "sbiopz10"
+      ]
+    },
+    {
+      "externalId": "qa-process",
+      "title": "QA process documentation",
+      "description": "Provide documentation for your formalized QA process.\nGuidance: Here's a sample QA process. [Google docs template](https://docs.google.com/document/d/1fDJapALQE5wJfm8Qfm8MSz8h9-O5NIgD/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1fDJapALQE5wJfm8Qfm8MSz8h9-O5NIgD/export?format=docx)",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2027-01-07T15:26:15.961Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "sbjgr7xz",
+        "ise32uno"
+      ]
+    },
+    {
+      "externalId": "other-database-backups",
+      "title": "Backups completed for other databases",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-08T17:55:05.025Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "data-restore-test",
+      "title": "Data restore test",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-08T17:58:35.858Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001",
+        "HIPAA"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "redundant-backups-or-systems",
+      "title": "Redundant backup or system locations in use",
+      "description": "Provide evidence that backups and systems have acceptable redundancy either via different availability zones, replication or copies, or other methods. \nAcceptable evidence can include:\n- Evidence/screenshots from cloud management consoles or system configuration files that display settings for multi-zone deployment, replication configurations, or automated backup schedules.\n- Logs or dashboard screenshots from monitoring tools that confirm the operational status of redundant systems and verify that data replication and backup processes are active.\n- System-generated logs that detail routine backup operations and replication events, ensuring that these processes occur as scheduled.",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-08T17:59:30.287Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "oufs0z8u"
+      ]
+    },
+    {
+      "externalId": "secure-engineering-principles",
+      "title": "Secure engineering principles defined",
+      "description": "Please upload a completed copy of a Secure Engineering Principles & Planning document.\nThis document should speak to what your organization considers its guiding principles for secure engineering and operate as a north star reference when considering engineering challenges.\nFor ideas on what to consider it is recommended that you review NIST SP 800-160v1r1 also known as \"Engineering Trustworthy Secure Systems\" from NIST.\nA template can be found here: [Google docs template](https://docs.google.com/document/d/1Us6VKDhJYJzzfq2kEdYGax0DkaRC2ei9GIuGQD9ymOk/copy)",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-11T06:23:38.709Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "27qd09no",
+        "qi8ey5na",
+        "ise32uno"
+      ]
+    },
+    {
+      "externalId": "configuration-baselines",
+      "title": "Secure configuration baselines developed",
+      "description": "Provide evidence of documented configuration baselines based on industry standards such as CIS, NIST 800 series, NIST STIGs, etc.) for all in-scope systems such as:\n1. Operating Systems\n2. Cloud Infrastructure and Services\n3. Servers or Compute Instances\n4. Endpoint Software\n5. Network Infrastructure (Firewalls, VPCs, Security Groups)\n6. Databases\nAcceptable evidence can include:\n- A configuration baseline document outlining security settings for each in-scope system.\n- Screenshots or reports from security tools (e.g., CIS Benchmark scans, AWS Security Hub findings) showing compliance with baseline standards.\n- Documentation of access controls, logging configurations, and system monitoring settings.\n- A simple spreadsheet listing key configurations and security settings applied across systems.\nImplementation Guidance for Startups:\nIf you don’t have a mature IT team, start with these steps:\n- Identify what you use – List the technologies you rely on (e.g., AWS, Linux, Windows, databases, firewalls).\n- Use existing templates – Download CIS benchmarks or NIST STIGs relevant to your technology stack. Many security tools (e.g., AWS Security Hub, Microsoft Defender) provide default recommendations.\n- Apply basic hardening – Disable unnecessary services, enforce multi-factor authentication (MFA), enable logging, and restrict admin access.\n- Document in a simple format – A Google Doc or spreadsheet listing key security settings is enough to start. Track what’s configured, who owns it, and when it was last reviewed.\n- Set up alerts & reviews – Use built-in cloud security tools (AWS Config, Azure Security Center) to monitor compliance, and schedule periodic checks (quarterly or biannually) to keep settings up to date.\nAudit Consideration: During your audit window, be prepared to re-upload evidence for at least a 10% for your interconnected system components, as randomly selected and requested by your auditor.\nA template can be found here: [Google docs template](https://docs.google.com/spreadsheets/d/1omSk3wxiZKWuYGGZlBqyNWtETUw1dT-3YwoVimOatMg/copy)",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2025-10-11T10:01:26.506Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "hrnf9oqw",
+        "27qd09no"
+      ]
+    },
+    {
+      "externalId": "web-filtering",
+      "title": "Web Filtering Capabilities",
+      "description": "Provide evidence that demonstrates that your organization has implemented web filtering controls to reduce the risk of personnel accessing websites that contain illegal content, viruses, or phishing materials. This includes blocking access to known or suspected malicious websites, command and control servers, and websites sharing illegal content.\nWhere to find the web filtering evidence:\n1) Web Protection in Anti-malware Solutions: Many small businesses already use anti-malware or antivirus software that includes basic web filtering features. If the company has an Anti-malware Solution, it likely has built-in Web Protection or Web Filtering.\nWhere to check:\nOpen the anti-malware software dashboard.\nLook for sections like Web Protection, Safe Browsing, or Web Control. This will typically list blocked websites or threats encountered during browsing.\nCapture screenshots of the enabled web filtering settings or download a report from the software.\n2) Firewall or Router Settings: If the company uses a business-grade firewall or router (e.g., Cisco, SonicWall, or even certain Netgear routers), web filtering can often be configured directly within these devices.\nWhere to check:\nAccess the firewall or router’s admin panel.\nLook for sections like URL Filtering, Content Filtering, or Web Filtering.\nCapture screenshots of the settings and any activity logs showing blocked website attempts.\n3) Browser-Based Protections: Modern browsers (like Chrome, Firefox, and Edge) come with built-in protection against dangerous websites.\nWhere to check:\nIn Chrome, go to Settings > Privacy and Security > Security. Check for “Safe Browsing” settings.\nCapture screenshots of this setting enabled.",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-11T06:25:41.427Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "4syp5hfe"
+      ]
+    },
+    {
+      "externalId": "production-data-not-used-in-test-dev-environment",
+      "title": "Production data not used for dev or test",
+      "description": "Screenshots, processes/procedures, or other evidence of how production data is prevented from being used, or validated to not be used for test and development environments",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2026-01-09T21:16:11.257Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "sbiopz10",
+        "bqnpwe6c"
+      ]
+    },
+    {
+      "externalId": "data-retention-expiry-deletion-settings",
+      "title": "Data auto-deleted when retention period expires",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2026-03-04T16:27:17.124Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "change-management-procedures",
+      "title": "Change management procedure documentation",
+      "description": "",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2026-02-06T14:11:47.015Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "management-review-records-example",
+      "title": "Management Review records example",
+      "description": "Please provide an example of a Management Review Meeting notes taken during the management review meeting. \nThese notes should accurately reflect discussion and decisions made during the meeting and should include the names of those in attendance and other relevant information.",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-11T07:02:10.798Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "u7dltb40"
+      ]
+    },
+    {
+      "externalId": "management-review-presentation-example",
+      "title": "Management Review presentation example",
+      "description": "Please provide an example of a completed Management Review Meeting Presentation. The example should include (at minimum):\n- Previous action follow up\n     - Discuss the outcomes/status of previously agreed on actions\n- Changes to Risk, Security/Threat landscape or other ISMS functions since last meeting\n- ISMS Performance\n     - Non-Conformities and corrective actions\n     - Monitoring and Measurement results\n     - Audit results\n     - Business objective fulfillment & alignment\n- Interested parties feedback\n     - ISMS stakeholder feedback or updates\n- Risk management results\n     - Updates on risk management activities and effectiveness\n- Continuous improvement\n     - Management decisions re: proposed/required changes to ISMS",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-11T07:02:27.078Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "u7dltb40"
+      ]
+    },
+    {
+      "externalId": "eng-operating-procedures",
+      "title": "Engineering operating procedure documentation",
+      "description": "",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2027-01-11T07:07:41.677Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "686cc0d5dd2eb9af86197c28",
+      "title": "30. BCD-2_ BCP/DR",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-13T00:04:31.039Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "disaster-recovery-tabletop",
+      "title": "Tabletop disaster recovery exercise",
+      "description": "Provide notes, outputs, or action items from the most recent, periodic disaster recovery tabletop exercise.\nA disaster recovery tabletop exercise is a formal meeting involving key technical and non-technical resources. After a scenario is presented, the stakeholders should evaluate existing plans to respond to the situation, apply the disaster recovery plans and walk through how the organization would recover data and systems from backup.\nGuidance: Here's a sample tabletop document. [Google docs template](https://docs.google.com/document/d/1IS81_7PlCnNMRMj5U-V_fI_W_uWpHx8zVxVQXHOg_hs/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1IS81_7PlCnNMRMj5U-V_fI_W_uWpHx8zVxVQXHOg_hs/export?format=docx)",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-13T00:07:51.789Z",
+      "tags": [
+        "SOC2",
+        "ISO27001",
+        "ISO27001",
+        "HIPAA",
+        "GDPR"
+      ],
+      "controlIdentifiers": [
+        "database-replication-utilized",
+        "production-data-backups-conducted",
+        "data-backup-procedures",
+        "continuity-disaster-recovery-plans-tested",
+        "9t2qdzle",
+        "o7ssnlfi",
+        "x14j0x47",
+        "contingency-plan",
+        "contingency-plan-testing-and-revision-procedure",
+        "emergency-mode-operation-plan",
+        "continuity-and-disaster-recovery-plans-established-gdpr",
+        "continuity-disaster-recovery-plans-tested-gdpr"
+      ]
+    },
+    {
+      "externalId": "671baef8c9a7459a03bc36ed",
+      "title": "Security Incident Reported by the Employees",
+      "description": "The reporting mechanism for employees to report information security events",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-13T00:12:08.469Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "qgkw4h74"
+      ]
+    },
+    {
+      "externalId": "outsourced-development-contracts",
+      "title": "Outsourced development contract",
+      "description": "Provide documented evidence demonstrating that the organization directs, monitors, and reviews outsourced system development activities. \nExamples of evidence can include:\n- Contracts, agreements, or SLAs with third-party developers that specify security, quality, and compliance expectations.\n- Records of oversight activities, such as status reports, meeting minutes, or audit logs reviewing outsourced development progress.\n- Security assessments, code reviews, or penetration testing results performed on outsourced development work.\n- Corrective actions or follow-ups directed to the outsourced development team to address identified risks or non-compliance issues.",
+      "category": "Report",
+      "status": "APPROVED",
+      "validUntil": "2027-01-13T00:19:34.309Z",
+      "tags": [
+        "ISO27001",
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "9phqpcta"
+      ]
+    },
+    {
+      "externalId": "68a62e91ecbab7427224e56d",
+      "title": "2. Contractor list",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-13T00:29:14.716Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "privacy-compliance-policy",
+      "title": "Privacy compliance policy",
+      "description": "Internal policy that establishes privacy practices and procedures for complying with privacy regulations including processes for responding to data subject access requests, law enforcement compelled disclosure, etc.",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-15T23:55:04.378Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": [
+        "rt205ubq"
+      ]
+    },
+    {
+      "externalId": "customer-data-processing-agreement-exists",
+      "title": "Data Processing Agreements (DPA) with customers",
+      "description": "",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-16T00:06:09.900Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "lead-supervisory-authority-appointed-exists",
+      "title": "Lead supervisory authority appointed",
+      "description": "",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2026-01-16T00:12:43.312Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "internal-privacy-policy",
+      "title": "Internal Privacy Policy",
+      "description": "",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-16T00:25:58.917Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "data-protection-impact-assessment-exists",
+      "title": "Data Protection Impact Assessment (DPIA)",
+      "description": "",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2027-01-19T01:28:45.669Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "encryption-process-data-at-rest",
+      "title": "Encryption is applied to sensitive data at rest",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2027-01-22T22:42:09.180Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "isms-change-planning",
+      "title": "Planning changes of the ISMS",
+      "description": "Evidence that when changes to the ISMS are required (such as significant new procedures, structural changes to the organizations security or operations, or other security risk impacting changes occur) that they are planned and implemented using established change management processes.\nThis can be a project management process example, management review meeting discussion and planning of the change, or change tickets for implementation. The important element is showing that that the ISMS isn't modified in material or significant ways without the risk and impact to its operation from the modification being evaluated and the change is planned and managed according to company policy.",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2025-08-27T22:29:54.894Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": [
+        "knlhbqw2"
+      ]
+    },
+    {
+      "externalId": "malware-configuration",
+      "title": "Anti-malware solution is configured to protect against malicious software",
+      "description": "",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2024-01-15T14:46:39.352Z",
+      "tags": [
+        "ISO27001"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "board-of-directors-charter",
+      "title": "Board of directors charter",
+      "description": "",
+      "category": "Procedure",
+      "status": "APPROVED",
+      "validUntil": "2023-06-22T14:26:06.646Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "eu-representative-appointed",
+      "title": "EU representative appointed",
+      "description": "",
+      "category": "Policy",
+      "status": "APPROVED",
+      "validUntil": "2026-01-16T00:21:14.305Z",
+      "tags": [
+        "GDPR"
+      ],
+      "controlIdentifiers": []
+    },
+    {
+      "externalId": "system-description",
+      "title": "System Description (Section III)",
+      "description": "The System Description is a detailed overview of the scope of your SOC 2 report. It describes your company, product, and the controls you have in place to meet the standard. It also outlines which areas of security you manage directly and which areas are managed by a third party (such as your cloud service provider). \nThe description provides final report recipients with useful information about the system that was audited and assists them in conducting an assessment of their risk in leveraging your services.\n The latest Vanta template for the system description can be found here: [Google docs template](https://docs.google.com/document/d/1kn4afLkVTRlgtaskch6mSlVb8br1FCyvFXng0TTwzNo/copy?copyComments=true) / [Docx template](https://docs.google.com/document/d/1kn4afLkVTRlgtaskch6mSlVb8br1FCyvFXng0TTwzNo/export?format=docx). If you already have a system description, upload it here to share it with your auditor.",
+      "category": "Other",
+      "status": "APPROVED",
+      "validUntil": "2025-11-04T15:51:28.915Z",
+      "tags": [
+        "SOC2"
+      ],
+      "controlIdentifiers": [
+        "system-description"
+      ]
+    },
+    {
+      "externalId": "data-inventory-map-exists",
+      "title": "Maintain data inventory map",
+      "description": "Provide a link or upload your most recent Data Inventory Map.\nGuidance: Here's a sample Data Inventory Map template. [Google docs template](https://docs.google.com/spreadsheets/d/15CTXdgPmizlrb0PS6SAyeiKpn6ga5A18z009lyzRZjQ/copy) / [Excel template](https://docs.google.com/spreadsheets/d/15CTXdgPmizlrb0PS6SAyeiKpn6ga5A18z009lyzRZjQ/export?format=xlsx)\nNote: Documenting your Records of Processing Activities (ROPA) can adequately fulfill the requirements of a Data Inventory but it is highly recommended to have a holistic approach to Data Inventory Mapping through the implementation of a Data Governance Program. This can include maintaining a structured metadata repository for databases and cloud resources, and using a discovery engine to scan for unstructured data across all environments (e.g., endpoints, cloud stores, documentation repositories, SaaS apps, etc.)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "personal-information-collection-reviewed",
+        "personal-information-reliability-verified",
+        "privacy-explicity-consent-obtained",
+        "duwec37o",
+        "countries-and-international-organizations-to-which-pii-can-be-transferred-for-controller",
+        "records-of-transfer-of-pii",
+        "data-inventory",
+        "identify-lawful-basis",
+        "pii-minimization-objectives",
+        "identify-basis-for-pii-transfer-between-jurisdictions",
+        "dpo",
+        "b6z4d4hs",
+        "process-as-per-processor-agreements",
+        "records-related-to-processing-pii",
+        "identify-and-document-purpose",
+        "consent-obtained",
+        "PII-data-subject-notice",
+        "records-of-pii-disclosure-to-third-parties",
+        "countries-international-organizations-pii-stored-for-processor"
+      ]
+    },
+    {
+      "externalId": "msa-template",
+      "title": "MSA template",
+      "description": "Provide a template of the most recent master service agreement to be used between yourselves and your customers.\nGuidance: Here's a sample MSA template. [Google docs template](https://docs.google.com/document/d/1TZKGVbFdLf391P5fMVmzexFBjM7XS3BcedugmMBhQik/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1TZKGVbFdLf391P5fMVmzexFBjM7XS3BcedugmMBhQik/export?format=docx)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "commitments-externally-communicated",
+        "gonqt473",
+        "nogvv3hw",
+        "sub-processor-changes"
+      ]
+    },
+    {
+      "externalId": "network-diagram",
+      "title": "Network diagram",
+      "description": "Provide a detailed network diagram.\nGuidance: A proper network diagram consists of several key components and attributes, such as:\n1. Boundary Definitions with clear demarcation of network boundaries, such as firewalls, routers, gateways, and VPNs\n2. Network Devices listed such as servers, switches, bastion servers, routers, firewalls, and IDS/IPS systems with clear labels \n3. Subnets within the network and their boundaries\n4. Representation of data flows in the network and the type of entity involved in the flow (e.g., public, private customer, internal employee, internal host, etc)\n5. Network zones such as public, private, DMZ, or other specific zones like cardholder data environments for PCI DSS.\n6. Security controls in use within the network architecture such as firewalls, IDS/IPS systems, NAC systems, web application firewalls, etc.\n7. Critical system inclusion such as identifying key databases, servers, cryptographic servers, etc.\n8. Physical locations of network components (e.g., AWS US-East)\n9. Redundancy and failover mechanisms such as network load balancers and disaster recovery locations\nA template can be found here: [Google docs template](https://docs.google.com/document/d/1FOOjO1ZYwWsc7CM25S0CQ-XrQirov7WvE6Zs8UEuYiU/copy)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "system-multiple-availability-zones",
+        "service-description-communicated",
+        "oufs0z8u",
+        "iubivdgx",
+        "x14j0x47",
+        "jqyhc6kq",
+        "k3eilu6n",
+        "sbiopz10"
+      ]
+    },
+    {
+      "externalId": "685ec7ec38f3cb51c0b4e630",
+      "title": "New Employee Background check",
+      "description": "Identify Population\n\nDetermine the total number of employees who are direct reports and require evaluations.\nCalculate Sample Size\n\nUse 10% of the population, with a minimum of 5 and a maximum of 25 samples.\nSelect Sample\n\nRandomly select employees from the population for testing.\nCollect Evidence\n\nObtain performance evaluation forms, HR system records, or screenshots showing completion.\nCheck Timeliness\n\nEnsure evaluations were completed within the last 12 months.\n\nNoella Dushime\nZain Syed\nEbere Ukoh\nPai Buenavente\nOlly Poltoratska     \n\nyou can add names, if any new employee joined during July Aug Sep 2025",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "background-checks-performed"
+      ]
+    },
+    {
+      "externalId": "log-dashboard",
+      "title": "Operational alert dashboard",
+      "description": "Provide a screenshot from your application monitoring dashboard, such as from Datadog or New Relic, showing alert configurations.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "processing-issues-automatically-alerted",
+        "system-customer-input-validation",
+        "3osnyf10",
+        "i7xairas",
+        "mjnl61h4"
+      ]
+    },
+    {
+      "externalId": "pen-test-remediation",
+      "title": "Penetration test remediation",
+      "description": "Provide evidence demonstrating that issues identified during your most recent periodic penetration test have been addressed.​\nAcceptable evidence and implementation guidance:\n- Remediation Documentation: Submit records such as tickets, reports, or logs that detail the identified issues, assigned personnel, remediation steps, and current status.​\n- Follow-up Testing Reports: Results from subsequent tests confirming that previously identified vulnerabilities have been effectively addressed.​\n- Management Sign-off: Approvals from leadership acknowledging the completion and effectiveness of remediation efforts.\n- Configuration Changes: Logs or records detailing modifications to system configurations to mitigate identified risks.\n- Patch Management Records: Evidence of applied patches or updates to address vulnerabilities found during the penetration test.\nIf no issues were found, provide documentation such as meeting minutes or internal communications confirming the review and acknowledgment of the penetration test results.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "penetration-testing",
+        "hrnf9oqw",
+        "z01cfd6c"
+      ]
+    },
+    {
+      "externalId": "pen-test",
+      "title": "Penetration test report",
+      "description": "Provide documentation or a report showing security findings in your recent periodic penetration test.\nLooking for a recommended vendor? [Ask our team](javascript:void(0))",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "penetration-testing",
+        "hrnf9oqw",
+        "7pn1c8nr",
+        "9yz4l6l3",
+        "z01cfd6c",
+        "security-controls-evaluation"
+      ]
+    },
+    {
+      "externalId": "685ecbf4eba7dd3c5b37513a",
+      "title": "Policy and procedures update",
+      "description": "Kindly update all policies and procedures along with Board of directors meet during audit window time.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "organization-structure-documented"
+      ]
+    },
+    {
+      "externalId": "product-documentation",
+      "title": "Product documentation site",
+      "description": "Provide a public link, documentation of how-to guides, or reference materials for your product or service.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "external-service-impact-notifications",
+        "service-description-communicated",
+        "support-system-available"
+      ]
+    },
+    {
+      "externalId": "6696c4177807872fa4b2231c",
+      "title": "Production deployment access restricted",
+      "description": "The company restricts access to migrate changes to production to authorized personnel.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "changes-approval-required"
+      ]
+    },
+    {
+      "externalId": "669e9bc000456d7d78d62199",
+      "title": "Production network access restricted",
+      "description": "provide a screenshot of the list of IAM roles and users with permissions to manage network configurations (e.g., VPC, security groups, NACLs).",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "access-production-network-restricted"
+      ]
+    },
+    {
+      "externalId": "669e99f021e866f776e04112",
+      "title": "Production OS access restricted",
+      "description": "provide a screenshot of the list of IAM roles and users with policies that include OS-level access permissions (e.g., access to EC2 instances).",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "access-operating-system-restricted"
+      ]
+    },
+    {
+      "externalId": "access-reviews",
+      "title": "Proof of completed access review",
+      "description": "Documents or a report from a recent periodic access review of all in-scope components, including data stores, cloud infrastructure, version control system, etc.\nGuidance: For additional information on how to fulfill this evidence request, see this guiding document: [Google docs template](https://docs.google.com/document/d/1DjWe3WgW1H6Q3jiNmPptUfUo3H_McvJ-YEO_NzRyk9s/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1DjWe3WgW1H6Q3jiNmPptUfUo3H_McvJ-YEO_NzRyk9s/export?format=docx).\nCurrent access data can be exported from the [Access](/access) page. If you have the Access Reviews product, you can perform the review by creating a schedule or adhoc Access Review on the [Reviews](/access-reviews) page.\nNote: This evidence is not required if using Vanta for access reviews.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "access-reviews",
+        "xtd1rde4",
+        "mwwihowm",
+        "zxjp1hkl",
+        "access-established-reviewed-modified",
+        "workforce-clearance-procedure",
+        "information-system-activity-reviewed",
+        "access-reviews-gdpr"
+      ]
+    },
+    {
+      "externalId": "public-change-log",
+      "title": "Public change log or release notes",
+      "description": "Provide a link to your public release notes/updates or a screenshot of the most recent product update communication to your customers.\nExamples: [AWS](https://aws.amazon.com/new/) [Azure](https://azure.microsoft.com/en-us/updates/)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "external-service-impact-notifications",
+        "external-support-resources",
+        "support-system-available",
+        "security-reminders"
+      ]
+    },
+    {
+      "externalId": "privacy-policy",
+      "title": "Publicly available privacy policy",
+      "description": "Provide a link to your publicly available privacy policy.\nNote: Your privacy policy should be reviewed and updated at least annually, especially anytime significant changes are made to how you handle personal information.\nGuidance: Here's a sample template. [Google docs template](https://docs.google.com/document/d/1iQOLv-egrF96aWvTz_G-QviZSlsjMAvV274yCL_81ok/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1iQOLv-egrF96aWvTz_G-QviZSlsjMAvV274yCL_81ok/export?format=docx)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "personal-information-changes-communicated",
+        "privacy-data-sharing",
+        "personal-data-updates",
+        "personal-information-collection-changes-communicated",
+        "policies-privacy-policy",
+        "privacy-complaints-procedures",
+        "privacy-data-retained",
+        "privacy-explicity-consent-obtained",
+        "privacy-individual-consent-obtained",
+        "privacy-new-information-purpose-consent",
+        "privacy-policies-personal-information-use-reviewed",
+        "privacy-policy-available",
+        "privacy-policy-established",
+        "privacy-policy-reviewed",
+        "third-party-privacy-documentation-reviewed",
+        "third-party-agreements",
+        "policies-procedures-available",
+        "countries-and-international-organizations-to-which-pii-can-be-transferred-for-controller",
+        "identify-lawful-basis",
+        "4g7uefoq",
+        "access-correction-erasure",
+        "identify-basis-for-pii-transfer-between-jurisdictions",
+        "dpo",
+        "b6z4d4hs",
+        "identify-and-document-purpose",
+        "consent-obtained",
+        "pii-data-subject-information",
+        "modify-or-withdraw-consent",
+        "object-to-pii-processing",
+        "9citr4xj"
+      ]
+    },
+    {
+      "externalId": "terms-of-service",
+      "title": "Publicly available terms of service",
+      "description": "Provide a link to your publicly facing Terms of Service\nNote: Your Terms of Service should be reviewed and updated regularly, especially anytime significant changes are made to how you handle personal information.\nGuidance: If necessary, see our Terms of Service template here: [Google docs template](https://docs.google.com/document/d/1D6RMboHzk1TWq71zTnRObVXxbn18HDtbUP9SqVvs7Vo/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1D6RMboHzk1TWq71zTnRObVXxbn18HDtbUP9SqVvs7Vo/export?format=docx)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "privacy-individual-consent-obtained",
+        "third-party-privacy-documentation-reviewed",
+        "commitments-externally-communicated",
+        "third-party-agreements",
+        "nogvv3hw"
+      ]
+    },
+    {
+      "externalId": "6860079ff4cb80c34ebf5247",
+      "title": "Remote access Evidence",
+      "description": "Kindly share the remote access approval request for production systems, including details of the secure encrypted connection to be used.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "remote-access-mfa-enforced"
+      ]
+    },
+    {
+      "externalId": "vulnerabilities-remediated-sample",
+      "title": "Sample of remediated vulnerabilities",
+      "description": "Provide evidence of remediation via tickets of high-severity findings from your most recent periodic vulnerability scan.\nNote: Only provide evidence here if you're NOT using one of Vanta's vulnerability scanner integrations.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "penetration-testing",
+        "vulnerability-scans-conducted",
+        "support-infra-patched",
+        "9yz4l6l3",
+        "z01cfd6c",
+        "security-controls-evaluation",
+        "mechanism-authenticate-information",
+        "support-infra-patched-gdpr"
+      ]
+    },
+    {
+      "externalId": "security-page",
+      "title": "Security information page",
+      "description": "Provide a link to your publicly accessible page outlining your security practices or upload your security whitepaper.\nGuidance: See [Vanta's security page](https://www.vanta.com/company/security) as an example. You may also be able to use a link to or screenshots from your Trust Center from Vanta to satisfy this requirement.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "commitments-externally-communicated"
+      ]
+    },
+    {
+      "externalId": "security-test-example",
+      "title": "Security integration tests",
+      "description": "Provide evidence demonstrating the implementation of automated security testing within your application or infrastructure, including Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), and Software Composition Analysis (SCA).​\nAcceptable evidence and implementation guidance:\n- Documentation of Security Testing Procedures: Outline your organization's approach to integrating automated security tests, specifying the tools used (e.g., GitHub Advanced Security, OWASP ZAP) and the frequency of these tests.​\n- Sample Security Test Reports: Provide recent reports from SAST, DAST, or SCA tools that detail identified vulnerabilities and the steps taken to address them.​\n- CI/CD Pipeline Integration Evidence: Show how security testing tools are incorporated into your continuous integration/continuous deployment (CI/CD) pipeline, ensuring that code is automatically scanned for vulnerabilities during development.​\n- Access to Security Dashboards: Offer access to dashboards or platforms where ongoing security testing results are displayed, demonstrating continuous monitoring and management of security risks.​\n- Training Records: Document training sessions or materials provided to development teams on the importance and implementation of automated security testing practices.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "ise32uno"
+      ]
+    },
+    {
+      "externalId": "baa-example",
+      "title": "Signed business associate agreement",
+      "description": "Example of a recent signed business associate agreement with subcontractor or consultant.\nAudit Consideration (if audit is applicable): During your audit window, be prepared to re-upload evidence for at least a 10% for third parties with PHI/ePHI  to confirm a BAA was in place. This will be randomly selected and requested by your auditor.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "business-associate-agreements-subcontractors",
+        "business-associate-agreements-with-vendors",
+        "group-health-plan-information-protection",
+        "subcontractor-business-associate-agreements-enforced",
+        "written-business-associate-agreements"
+      ]
+    },
+    {
+      "externalId": "employee-signed-confidentiality",
+      "title": "Signed confidentiality agreement",
+      "description": "Provide a recently signed employee confidentiality agreement.\nGuidance: There are employee confidentiality agreement template services such as [this one](https://legaltemplates.net/form/lt/employment-agreement/), but Vanta cannot vouch for the accuracy or legality of their templates or provide you with legal advice.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "confidentiality-agreement-acknowledged-employees",
+        "gonqt473",
+        "mtbrd5ny",
+        "erq8anhq",
+        "uxoiizoh",
+        "zz8z506w"
+      ]
+    },
+    {
+      "externalId": "incident-response-plan-test",
+      "title": "Test of incident response plan",
+      "description": "Provide evidence demonstrating periodic tests of the incident response plan, such as tabletop exercises or simulated incident drills. The evidence should confirm that testing is scheduled, executed, and reviewed.\nAcceptable evidence can include:\n- Calendar invites or scheduling records showing your upcoming/completed Incident Response Plan tests.\n- Meeting attendance records, sign-in sheets, or participant lists confirming involvement of key stakeholders.\n- Meeting minutes or a post-exercise report summarizing the scenario tested, key actions taken, and findings.\n- Screenshots, slides, or recorded sessions used during the tabletop exercise.\n- A documented after-action report highlighting gaps identified and improvements needed.\n- Remediation plans, assigned action items, or tracked follow-ups addressing weaknesses identified as a result of the test.\n- Evidence of leadership sign-off or acknowledgment of the test results.\nSample tabletop document: [Google docs template](https://docs.google.com/document/d/1oguIMxtHxstvt85EP-P-XF2hYC1WYC6xI9dvqlA6p8Y/copy?usp=sharing) / [Docx template](https://docs.google.com/document/d/1oguIMxtHxstvt85EP-P-XF2hYC1WYC6xI9dvqlA6p8Y/export?format=docx)",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "incident-response-plan-tested",
+        "9t2qdzle",
+        "breach-policy-and-procedure",
+        "incident-response-policies-established-gdpr"
+      ]
+    },
+    {
+      "externalId": "nonconformity-continuous-improvement-tracker",
+      "title": "Track and address nonconformities",
+      "description": "Upload a copy of a nonconformity or continuous improvement tracking sheet used by the organization to evaluate the suitability, adequacy and effectiveness of the information security management system after an issue is identified\nGuidance: Here's a sample nonconformity tracker ([Google docs template](https://docs.google.com/spreadsheets/d/1jBlBZmSGZ8J9z-0Qww2lqGkUtVRqECHGxbterZL3aos/copy) / [Excel template](https://docs.google.com/spreadsheets/d/1jBlBZmSGZ8J9z-0Qww2lqGkUtVRqECHGxbterZL3aos/export?format=xlsx)).\nAudit Consideration: During your audit window, be prepared to re-upload evidence showing at least 10% of non-conformities identified had root cause analysis created, corrective action outlined, and re-evaluation confirmation, as randomly selected and requested by your auditor.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "pb10fioj",
+        "0eyp30mh"
+      ]
+    },
+    {
+      "externalId": "6696c600ed930fdce363907c",
+      "title": "Unique SSH Keys",
+      "description": "The company requires authentication to production datastores to use authorized secure authentication mechanisms, such as unique SSH key.",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "access-datastores-ssh"
+      ]
+    },
+    {
+      "externalId": "669e2e9eddef78a998ee002d",
+      "title": "Utilize encryption access platforms for managing keys or securing sensitive data",
+      "description": "Discuss with relevant personnel to identify if they utilize encryption access platforms for managing keys or securing sensitive data. Data management policy states confidential data will be encrypted",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "access-encryption-keys"
+      ]
+    },
+    {
+      "externalId": "685fabc7fcd17bb99ee167c4",
+      "title": "Vendors review at least annually",
+      "description": "1. Evidence that each critical vendor is reviewed at least once a year (e.g., review reports, meeting minutes, emails). Please share review report or result which includes - Inherent and residual risk / similar testing methodology",
+      "category": "Other",
+      "status": "PENDING",
+      "validUntil": null,
+      "tags": [],
+      "controlIdentifiers": [
+        "vendor-management-program-established"
+      ]
+    }
+  ],
+  "riskMappings": [
+    {
+      "title": "Public facing privacy policy is inaccurate, omits critical information, and/or is out of date.",
+      "controlIdentifiers": [
+        "zz8z506w"
+      ]
+    },
+    {
+      "title": "Risks to privacy principles (DPIA) have not been assessed and/or mitigated.",
+      "controlIdentifiers": [
+        "zz8z506w"
+      ]
+    },
+    {
+      "title": "Subject access and deletion requests are not addressed within required timeframes.",
+      "controlIdentifiers": [
+        "zz8z506w"
+      ]
+    },
+    {
+      "title": "Consent for processing of PII is not captured and can't be demonstrated when needed.",
+      "controlIdentifiers": [
+        "zz8z506w"
+      ]
+    },
+    {
+      "title": "Insufficient internal record keeping is not compliant with privacy laws.",
+      "controlIdentifiers": [
+        "zz8z506w"
+      ]
+    },
+    {
+      "title": "Databases - Sensitive data stored in plain text",
+      "controlIdentifiers": [
+        "data-encrypted"
+      ]
+    },
+    {
+      "title": "Company records are altered due to lack of proper access controls, segregation of duties, and/or supervision.",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Entrances - Physical security: No offices",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Personnel fraudulently pay \"ghost employees\" due to lack of segregation, approvals and/or oversight in the payroll process.",
+      "controlIdentifiers": [
+        "risk-assessment-performed",
+        "risk-assessment-program",
+        "r7xxjkaz"
+      ]
+    },
+    {
+      "title": "Authentication mechanisms - Your codebase: codebase exposed",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Codebase security - Your codebase: Access compromised",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Storage buckets - Sensitive data or additional customer files stored in cloud buckets.",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Hardware - Physical security: NA",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Financial tools - People: Financial exposed",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Intrusions, breaches, and anomalous events cannot be investigated.",
+      "controlIdentifiers": [
+        "policies-incident-monitoring",
+        "support-infra-patched",
+        "vulnerability-scans-conducted",
+        "penetration-testing",
+        "log-management-utilized",
+        "system-threshold-monitoring",
+        "intrusion-detection-system",
+        "3osnyf10",
+        "puuo9pwr"
+      ]
+    },
+    {
+      "title": "Cyber insurance not purchased leading to the organization being directly and wholly responsible for any and all costs incurred as part of any possible security, compliance, regulatory or legal event including but not limited to all forensics, litigation, fines, and recovery costs.",
+      "controlIdentifiers": [
+        "continuity-and-disaster-recovery-plans-established",
+        "cybersecurity-insurance-maintained",
+        "risk-assessment-performed",
+        "risk-assessment-program",
+        "dm9a5emm",
+        "lggb5g7c",
+        "qmodzmvg"
+      ]
+    },
+    {
+      "title": "Company systems and data are breached by unauthorized persons via a vulnerability in non-production systems or networks.",
+      "controlIdentifiers": [
+        "sbiopz10"
+      ]
+    },
+    {
+      "title": "Background verification checks are not carried out on all candidates or are not proportional to the business requirements or the classification of the information to be accessed by the role resulting in increased risk of malicious insider threats.",
+      "controlIdentifiers": [
+        "role-responsibilities-specified",
+        "background-checks-performed",
+        "performance-evaluations-conducted",
+        "security-awareness-training-completed",
+        "i9up48pp"
+      ]
+    },
+    {
+      "title": "Failure to identify critical risks to ISMS",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Unmanaged vendor could lead to supply chain vulnerabilities",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Recurrence of unresolved issues",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Potential gaps in meeting stakeholder expectations",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Non-compliance could lead to security breaches",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Increased vulnerability due to unidentified risks",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Unapproved risk treatments may lack accountability",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Incomplete corrective action tracking",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Limited oversight on security performance",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Inability to demonstrate proactive enhancements",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "Unresolved non-conformities may persist",
+      "controlIdentifiers": []
+    },
+    {
+      "title": "The company assists employees in purchasing laptops for work purposes, but these devices are not returned upon offboarding, and there is no formal device disposal policy. This introduces risks related to data leakage, unauthorized access to corporate resources, or failure to comply with data protection regulations, as these devices may not be securely wiped or destroyed when employees leave the organization.",
+      "controlIdentifiers": []
+    }
+  ],
+  "frameworkMappings": [
+    {
+      "controlIdentifier": "asset-disposal-procedures-utilized",
+      "controlTitle": "Asset disposal procedures utilized",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.5",
+      "requirementApolloId": "soc2-CC 6.5"
+    },
+    {
+      "controlIdentifier": "asset-disposal-procedures-utilized",
+      "controlTitle": "Asset disposal procedures utilized",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "C 1.2",
+      "requirementApolloId": "soc2-C 1.2"
+    },
+    {
+      "controlIdentifier": "data-retention-procedures-established",
+      "controlTitle": "Data retention procedures established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 5.3",
+      "requirementApolloId": "soc2-CC 5.3"
+    },
+    {
+      "controlIdentifier": "data-retention-procedures-established",
+      "controlTitle": "Data retention procedures established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.5",
+      "requirementApolloId": "soc2-CC 6.5"
+    },
+    {
+      "controlIdentifier": "production-inventory-maintained",
+      "controlTitle": "Production inventory maintained",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "device-media-disposal",
+      "controlTitle": "Device and media disposal policies implemented",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.310(d)(2)(i)",
+      "requirementApolloId": "hipaa-164.310(d)(2)(i)"
+    },
+    {
+      "controlIdentifier": "device-media-movement",
+      "controlTitle": "Device and media movement recorded",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.310(d)(2)(iii)",
+      "requirementApolloId": "hipaa-164.310(d)(2)(iii)"
+    },
+    {
+      "controlIdentifier": "media-re-use",
+      "controlTitle": "Media re-use procedures implemented",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.310(d)(2)(ii)",
+      "requirementApolloId": "hipaa-164.310(d)(2)(ii)"
+    },
+    {
+      "controlIdentifier": "media-removal",
+      "controlTitle": "Media removal policies implemented",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.310(d)(1)",
+      "requirementApolloId": "hipaa-164.310(d)(1)"
+    },
+    {
+      "controlIdentifier": "production-inventory-maintained-gdpr",
+      "controlTitle": "Production inventory maintained",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "production-inventory-maintained-gdpr",
+      "controlTitle": "Production inventory maintained",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "production-inventory-maintained-gdpr",
+      "controlTitle": "Production inventory maintained",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "countries-international-organizations-pii-stored-for-processor",
+      "controlTitle": "Article 30 Records of processing activitiesCountries and international organizations to which PII can be stored for processor",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 30",
+      "requirementApolloId": "gdpr-Article 30"
+    },
+    {
+      "controlIdentifier": "countries-and-international-organizations-to-which-pii-can-be-transferred-for-controller",
+      "controlTitle": "Countries and international organizations to which PII can be transferred for controller",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 30",
+      "requirementApolloId": "gdpr-Article 30"
+    },
+    {
+      "controlIdentifier": "records-of-transfer-of-pii",
+      "controlTitle": "Records of transfer of PII",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 30",
+      "requirementApolloId": "gdpr-Article 30"
+    },
+    {
+      "controlIdentifier": "data-inventory",
+      "controlTitle": "Data inventory",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 30",
+      "requirementApolloId": "gdpr-Article 30"
+    },
+    {
+      "controlIdentifier": "95gl3uru",
+      "controlTitle": "Determining the scope of the information security management system",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "C.4.3",
+      "requirementApolloId": "iso27001_2022-C.4.3"
+    },
+    {
+      "controlIdentifier": "duwec37o",
+      "controlTitle": "Inventory of information and other associated assets",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.9",
+      "requirementApolloId": "iso27001_2022-A.5.9"
+    },
+    {
+      "controlIdentifier": "23wj3sby",
+      "controlTitle": "Return of assets",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.11",
+      "requirementApolloId": "iso27001_2022-A.5.11"
+    },
+    {
+      "controlIdentifier": "gonqt473",
+      "controlTitle": "Intellectual property rights",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.32",
+      "requirementApolloId": "iso27001_2022-A.5.32"
+    },
+    {
+      "controlIdentifier": "dzm2dexq",
+      "controlTitle": "Security of assets off-premises",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.7.9",
+      "requirementApolloId": "iso27001_2022-A.7.9"
+    },
+    {
+      "controlIdentifier": "rol0zubt",
+      "controlTitle": "Storage media",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.7.10",
+      "requirementApolloId": "iso27001_2022-A.7.10"
+    },
+    {
+      "controlIdentifier": "2yosmk08",
+      "controlTitle": "Secure disposal or re-use of equipment",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.7.14",
+      "requirementApolloId": "iso27001_2022-A.7.14"
+    },
+    {
+      "controlIdentifier": "continuity-and-disaster-recovery-plans-established",
+      "controlTitle": "Continuity and Disaster Recovery plans established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 9.1",
+      "requirementApolloId": "soc2-CC 9.1"
+    },
+    {
+      "controlIdentifier": "continuity-and-disaster-recovery-plans-established",
+      "controlTitle": "Continuity and Disaster Recovery plans established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "A 1.3",
+      "requirementApolloId": "soc2-A 1.3"
+    },
+    {
+      "controlIdentifier": "continuity-disaster-recovery-plans-tested",
+      "controlTitle": "Continuity and disaster recovery plans tested",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 3.2",
+      "requirementApolloId": "soc2-CC 3.2"
+    },
+    {
+      "controlIdentifier": "continuity-disaster-recovery-plans-tested",
+      "controlTitle": "Continuity and disaster recovery plans tested",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 7.5",
+      "requirementApolloId": "soc2-CC 7.5"
+    },
+    {
+      "controlIdentifier": "cybersecurity-insurance-maintained",
+      "controlTitle": "Cybersecurity insurance maintained",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 9.1",
+      "requirementApolloId": "soc2-CC 9.1"
+    },
+    {
+      "controlIdentifier": "database-replication-utilized",
+      "controlTitle": "Database replication utilized",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "A 1.2",
+      "requirementApolloId": "soc2-A 1.2"
+    },
+    {
+      "controlIdentifier": "production-data-backups-conducted",
+      "controlTitle": "Production data backups conducted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "A 1.2",
+      "requirementApolloId": "soc2-A 1.2"
+    },
+    {
+      "controlIdentifier": "system-multiple-availability-zones",
+      "controlTitle": "Production multi-availability zones established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "A 1.2",
+      "requirementApolloId": "soc2-A 1.2"
+    },
+    {
+      "controlIdentifier": "application-and-data-criticality-analysis",
+      "controlTitle": "Application and data criticality analyzed",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(7)(ii)(E)",
+      "requirementApolloId": "hipaa-164.308(a)(7)(ii)(E)"
+    },
+    {
+      "controlIdentifier": "contingency-operations",
+      "controlTitle": "Contingency operations established",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.310(a)(2)(i)",
+      "requirementApolloId": "hipaa-164.310(a)(2)(i)"
+    },
+    {
+      "controlIdentifier": "contingency-plan",
+      "controlTitle": "Contingency plan established",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(7)(i)",
+      "requirementApolloId": "hipaa-164.308(a)(7)(i)"
+    },
+    {
+      "controlIdentifier": "contingency-plan-testing-and-revision-procedure",
+      "controlTitle": "Contingency plan tested and revised",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(7)(ii)(D)",
+      "requirementApolloId": "hipaa-164.308(a)(7)(ii)(D)"
+    },
+    {
+      "controlIdentifier": "data-backup-and-storage",
+      "controlTitle": "Data backed up and stored",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.310(d)(2)(iv)",
+      "requirementApolloId": "hipaa-164.310(d)(2)(iv)"
+    },
+    {
+      "controlIdentifier": "data-backup-plan",
+      "controlTitle": "Data backup plan implemented",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(7)(ii)(A)",
+      "requirementApolloId": "hipaa-164.308(a)(7)(ii)(A)"
+    },
+    {
+      "controlIdentifier": "disaster-recovery-plan",
+      "controlTitle": "Disaster recovery plan established",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(7)(ii)(B)",
+      "requirementApolloId": "hipaa-164.308(a)(7)(ii)(B)"
+    },
+    {
+      "controlIdentifier": "emergency-mode-operation-plan",
+      "controlTitle": "Emergency mode operation plan established",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(7)(ii)(C)",
+      "requirementApolloId": "hipaa-164.308(a)(7)(ii)(C)"
+    },
+    {
+      "controlIdentifier": "continuity-and-disaster-recovery-plans-established-gdpr",
+      "controlTitle": "Continuity and Disaster Recovery plans established",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "continuity-and-disaster-recovery-plans-established-gdpr",
+      "controlTitle": "Continuity and Disaster Recovery plans established",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "continuity-and-disaster-recovery-plans-established-gdpr",
+      "controlTitle": "Continuity and Disaster Recovery plans established",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "continuity-disaster-recovery-plans-tested-gdpr",
+      "controlTitle": "Continuity and Disaster Recovery plans tested annually",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "continuity-disaster-recovery-plans-tested-gdpr",
+      "controlTitle": "Continuity and Disaster Recovery plans tested annually",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "continuity-disaster-recovery-plans-tested-gdpr",
+      "controlTitle": "Continuity and Disaster Recovery plans tested annually",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "9t2qdzle",
+      "controlTitle": "ICT readiness for business continuity",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.30",
+      "requirementApolloId": "iso27001_2022-A.5.30"
+    },
+    {
+      "controlIdentifier": "o7ssnlfi",
+      "controlTitle": "Information backup",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.13",
+      "requirementApolloId": "iso27001_2022-A.8.13"
+    },
+    {
+      "controlIdentifier": "oufs0z8u",
+      "controlTitle": "Redundancy of information processing facilities",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.14",
+      "requirementApolloId": "iso27001_2022-A.8.14"
+    },
+    {
+      "controlIdentifier": "system-capacity-reviewed",
+      "controlTitle": "System capacity reviewed",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "A 1.1",
+      "requirementApolloId": "soc2-A 1.1"
+    },
+    {
+      "controlIdentifier": "fpa4156z",
+      "controlTitle": "Capacity management",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.6",
+      "requirementApolloId": "iso27001_2022-A.8.6"
+    },
+    {
+      "controlIdentifier": "configuration-management-system-established",
+      "controlTitle": "Configuration management system established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 3.4",
+      "requirementApolloId": "soc2-CC 3.4"
+    },
+    {
+      "controlIdentifier": "configuration-management-system-established",
+      "controlTitle": "Configuration management system established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 7.1",
+      "requirementApolloId": "soc2-CC 7.1"
+    },
+    {
+      "controlIdentifier": "policies-password-complexity-gdpr",
+      "controlTitle": "Password policy enforced",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "policies-password-complexity-gdpr",
+      "controlTitle": "Password policy enforced",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "policies-password-complexity-gdpr",
+      "controlTitle": "Password policy enforced",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "hrnf9oqw",
+      "controlTitle": "Configuration management",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.9",
+      "requirementApolloId": "iso27001_2022-A.8.9"
+    },
+    {
+      "controlIdentifier": "change-management-procedures",
+      "controlTitle": "Change management procedures enforced",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 5.3",
+      "requirementApolloId": "soc2-CC 5.3"
+    },
+    {
+      "controlIdentifier": "change-management-procedures",
+      "controlTitle": "Change management procedures enforced",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 7.1",
+      "requirementApolloId": "soc2-CC 7.1"
+    },
+    {
+      "controlIdentifier": "change-management-procedures",
+      "controlTitle": "Change management procedures enforced",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 8.1",
+      "requirementApolloId": "soc2-CC 8.1"
+    },
+    {
+      "controlIdentifier": "changes-approval-required",
+      "controlTitle": "Production deployment access restricted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "changes-approval-required",
+      "controlTitle": "Production deployment access restricted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 8.1",
+      "requirementApolloId": "soc2-CC 8.1"
+    },
+    {
+      "controlIdentifier": "development-lifecycle-established",
+      "controlTitle": "Development lifecycle established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 5.2",
+      "requirementApolloId": "soc2-CC 5.2"
+    },
+    {
+      "controlIdentifier": "development-lifecycle-established",
+      "controlTitle": "Development lifecycle established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 5.3",
+      "requirementApolloId": "soc2-CC 5.3"
+    },
+    {
+      "controlIdentifier": "development-lifecycle-established",
+      "controlTitle": "Development lifecycle established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.8",
+      "requirementApolloId": "soc2-CC 6.8"
+    },
+    {
+      "controlIdentifier": "development-lifecycle-established",
+      "controlTitle": "Development lifecycle established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 8.1",
+      "requirementApolloId": "soc2-CC 8.1"
+    },
+    {
+      "controlIdentifier": "knlhbqw2",
+      "controlTitle": "Planning of Changes",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "C.6.3",
+      "requirementApolloId": "iso27001_2022-C.6.3"
+    },
+    {
+      "controlIdentifier": "voxc3tc6",
+      "controlTitle": "Installation of software on operational systems",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.19",
+      "requirementApolloId": "iso27001_2022-A.8.19"
+    },
+    {
+      "controlIdentifier": "sbjgr7xz",
+      "controlTitle": "Change management",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.32",
+      "requirementApolloId": "iso27001_2022-A.8.32"
+    },
+    {
+      "controlIdentifier": "zrx7kjgo",
+      "controlTitle": "Information security for use of cloud services",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.23",
+      "requirementApolloId": "iso27001_2022-A.5.23"
+    },
+    {
+      "controlIdentifier": "system-description",
+      "controlTitle": "SOC 2 - System Description",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "SD - SOC 2",
+      "requirementApolloId": "soc2-SD - SOC 2"
+    },
+    {
+      "controlIdentifier": "whistleblower-policy-established",
+      "controlTitle": "Whistleblower policy established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 2.2",
+      "requirementApolloId": "soc2-CC 2.2"
+    },
+    {
+      "controlIdentifier": "security-controls-evaluation",
+      "controlTitle": "Security controls evaluated",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.308(a)(8)",
+      "requirementApolloId": "hipaa-164.308(a)(8)"
+    },
+    {
+      "controlIdentifier": "return-transfer-or-disposal-of-pii",
+      "controlTitle": "Return, transfer or disposal of PII",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "identify-lawful-basis",
+      "controlTitle": "Identify lawful basis",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 6",
+      "requirementApolloId": "gdpr-Article 6"
+    },
+    {
+      "controlIdentifier": "limit-collection",
+      "controlTitle": "Limit collection",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "pii-minimization-objectives",
+      "controlTitle": "PII minimization",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "pii-deidentification-deletion-at-the-end-of-processing",
+      "controlTitle": "PII de-identification and deletion at the end of processing",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "retention",
+      "controlTitle": "Retention of PII",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "disposal",
+      "controlTitle": "Disposal of PII",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "eu-representatitve",
+      "controlTitle": "Appoint EU representative",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 27",
+      "requirementApolloId": "gdpr-Article 27"
+    },
+    {
+      "controlIdentifier": "lead-supervisory-authority",
+      "controlTitle": "Appoint EU lead supervisory authority",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 51",
+      "requirementApolloId": "gdpr-Article 51"
+    },
+    {
+      "controlIdentifier": "customer-data-deleted-upon-leave-gdpr",
+      "controlTitle": "Customer data deleted upon leave",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 25",
+      "requirementApolloId": "gdpr-Article 25"
+    },
+    {
+      "controlIdentifier": "7mi2nbsh",
+      "controlTitle": "Internal Audit - General",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "C.9.2.1",
+      "requirementApolloId": "iso27001_2022-C.9.2.1"
+    },
+    {
+      "controlIdentifier": "nqkiqbmz",
+      "controlTitle": "Internal Audit Program",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "C.9.2.2",
+      "requirementApolloId": "iso27001_2022-C.9.2.2"
+    },
+    {
+      "controlIdentifier": "pb10fioj",
+      "controlTitle": "Nonconformity and corrective action",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "C.10.2",
+      "requirementApolloId": "iso27001_2022-C.10.2"
+    },
+    {
+      "controlIdentifier": "p87muahm",
+      "controlTitle": "Legal, statutory, regulatory and contractual requirements",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.31",
+      "requirementApolloId": "iso27001_2022-A.5.31"
+    },
+    {
+      "controlIdentifier": "7pn1c8nr",
+      "controlTitle": "Independent review of information security",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.35",
+      "requirementApolloId": "iso27001_2022-A.5.35"
+    },
+    {
+      "controlIdentifier": "9yz4l6l3",
+      "controlTitle": "Compliance with policies, rules and standards for information security",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.36",
+      "requirementApolloId": "iso27001_2022-A.5.36"
+    },
+    {
+      "controlIdentifier": "dzsaee29",
+      "controlTitle": "Protection of information systems during audit testing",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.34",
+      "requirementApolloId": "iso27001_2022-A.8.34"
+    },
+    {
+      "controlIdentifier": "jxei7q48",
+      "controlTitle": "Required Contribution for Binding Arbitration Mechanism",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "EU-USDPF-GOV",
+      "requirementApolloId": "gdpr-EU-USDPF-GOV"
+    },
+    {
+      "controlIdentifier": "rt205ubq",
+      "controlTitle": "Annual Verification of DPF Compliance",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "EU-USDPF-GOV",
+      "requirementApolloId": "gdpr-EU-USDPF-GOV"
+    },
+    {
+      "controlIdentifier": "4g7uefoq",
+      "controlTitle": "Designate a DPF Contact",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "EU-USDPF-GOV",
+      "requirementApolloId": "gdpr-EU-USDPF-GOV"
+    },
+    {
+      "controlIdentifier": "2vbk7als",
+      "controlTitle": "Internal Privacy Policy",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "EU-USDPF-PRIV",
+      "requirementApolloId": "gdpr-EU-USDPF-PRIV"
+    },
+    {
+      "controlIdentifier": "access-datastores-ssh",
+      "controlTitle": "Unique production database authentication enforced",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "access-encryption-keys",
+      "controlTitle": "Encryption key access restricted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "assets-portable-media-encrypted",
+      "controlTitle": "Portable media encrypted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.7",
+      "requirementApolloId": "soc2-CC 6.7"
+    },
+    {
+      "controlIdentifier": "data-encrypted",
+      "controlTitle": "Data encryption utilized",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "data-encrypted",
+      "controlTitle": "Data encryption utilized",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "PI 1.4",
+      "requirementApolloId": "soc2-PI 1.4"
+    },
+    {
+      "controlIdentifier": "unique-account-authentication-enforced",
+      "controlTitle": "Unique account authentication enforced",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "unique-account-authentication-enforced",
+      "controlTitle": "Unique account authentication enforced",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "C 1.1",
+      "requirementApolloId": "soc2-C 1.1"
+    },
+    {
+      "controlIdentifier": "data-encryption-decryption",
+      "controlTitle": "Encryption and decryption controls implemented",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.312(a)(2)(iv)",
+      "requirementApolloId": "hipaa-164.312(a)(2)(iv)"
+    },
+    {
+      "controlIdentifier": "data-transmission-encrypted",
+      "controlTitle": "Data transmission encrypted",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.312(e)(2)(ii)",
+      "requirementApolloId": "hipaa-164.312(e)(2)(ii)"
+    },
+    {
+      "controlIdentifier": "data-transmission-integrity",
+      "controlTitle": "Data transmission integrity maintained",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.312(e)(2)(i)",
+      "requirementApolloId": "hipaa-164.312(e)(2)(i)"
+    },
+    {
+      "controlIdentifier": "data-transmission-security",
+      "controlTitle": "Data transmission secured",
+      "frameworkCode": "HIPAA",
+      "requirementIdentifier": "164.312(e)(1)",
+      "requirementApolloId": "hipaa-164.312(e)(1)"
+    },
+    {
+      "controlIdentifier": "pii-transmission-controls-for-processor",
+      "controlTitle": "PII transmission controls for processor",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "pii-transmission-controls-for-processor",
+      "controlTitle": "PII transmission controls for processor",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "pii-transmission-controls-for-processor",
+      "controlTitle": "PII transmission controls for processor",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "pii-transmission-controls-for-controller",
+      "controlTitle": "PII transmission controls for controller",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "pii-transmission-controls-for-controller",
+      "controlTitle": "PII transmission controls for controller",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "pii-transmission-controls-for-controller",
+      "controlTitle": "PII transmission controls for controller",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "data-encrypted-gdpr",
+      "controlTitle": "Data encryption utilized",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "data-encrypted-gdpr",
+      "controlTitle": "Data encryption utilized",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "data-encrypted-gdpr",
+      "controlTitle": "Data encryption utilized",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "remote-access-vpn-enforced-gdpr",
+      "controlTitle": "Remote access encrypted enforced",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "remote-access-vpn-enforced-gdpr",
+      "controlTitle": "Remote access encrypted enforced",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "remote-access-vpn-enforced-gdpr",
+      "controlTitle": "Remote access encrypted enforced",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "data-encrypted-in-transit-gdpr",
+      "controlTitle": "Data transmission encrypted",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 24",
+      "requirementApolloId": "gdpr-Article 24"
+    },
+    {
+      "controlIdentifier": "data-encrypted-in-transit-gdpr",
+      "controlTitle": "Data transmission encrypted",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 28",
+      "requirementApolloId": "gdpr-Article 28"
+    },
+    {
+      "controlIdentifier": "data-encrypted-in-transit-gdpr",
+      "controlTitle": "Data transmission encrypted",
+      "frameworkCode": "GDPR",
+      "requirementIdentifier": "Article 32",
+      "requirementApolloId": "gdpr-Article 32"
+    },
+    {
+      "controlIdentifier": "nogvv3hw",
+      "controlTitle": "Information transfer",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.5.14",
+      "requirementApolloId": "iso27001_2022-A.5.14"
+    },
+    {
+      "controlIdentifier": "07i98tv1",
+      "controlTitle": "Use of cryptography",
+      "frameworkCode": "ISO27001",
+      "requirementIdentifier": "A.8.24",
+      "requirementApolloId": "iso27001_2022-A.8.24"
+    },
+    {
+      "controlIdentifier": "customer-data-deleted-upon-leave",
+      "controlTitle": "Customer data deleted upon leaving",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.5",
+      "requirementApolloId": "soc2-CC 6.5"
+    },
+    {
+      "controlIdentifier": "customer-data-deleted-upon-leave",
+      "controlTitle": "Customer data deleted upon leaving",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "C 1.2",
+      "requirementApolloId": "soc2-C 1.2"
+    },
+    {
+      "controlIdentifier": "customer-data-retained",
+      "controlTitle": "Customer data retained",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "PI 1.2",
+      "requirementApolloId": "soc2-PI 1.2"
+    },
+    {
+      "controlIdentifier": "customer-data-retained",
+      "controlTitle": "Customer data retained",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "PI 1.4",
+      "requirementApolloId": "soc2-PI 1.4"
+    },
+    {
+      "controlIdentifier": "customer-data-retained",
+      "controlTitle": "Customer data retained",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "PI 1.5",
+      "requirementApolloId": "soc2-PI 1.5"
+    },
+    {
+      "controlIdentifier": "customer-transaction-modifications-restricted",
+      "controlTitle": "Customer transaction modifications restricted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "PI 1.5",
+      "requirementApolloId": "soc2-PI 1.5"
+    },
+    {
+      "controlIdentifier": "customer-transactions-portal-available",
+      "controlTitle": "Customer transaction portal available",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "PI 1.4",
+      "requirementApolloId": "soc2-PI 1.4"
+    },
+    {
+      "controlIdentifier": "data-classification-policy",
+      "controlTitle": "Data classification policy established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "CC 6.1",
+      "requirementApolloId": "soc2-CC 6.1"
+    },
+    {
+      "controlIdentifier": "data-classification-policy",
+      "controlTitle": "Data classification policy established",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "C 1.1",
+      "requirementApolloId": "soc2-C 1.1"
+    },
+    {
+      "controlIdentifier": "data-deletion-requests-handled",
+      "controlTitle": "Data deletion requests handled",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 4.3",
+      "requirementApolloId": "soc2-P 4.3"
+    },
+    {
+      "controlIdentifier": "personal-information-changes-communicated",
+      "controlTitle": "Personal information changes communicated",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 5.2",
+      "requirementApolloId": "soc2-P 5.2"
+    },
+    {
+      "controlIdentifier": "privacy-identity-verification",
+      "controlTitle": "Identity verification conducted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 5.1",
+      "requirementApolloId": "soc2-P 5.1"
+    },
+    {
+      "controlIdentifier": "privacy-identity-verification",
+      "controlTitle": "Identity verification conducted",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 6.7",
+      "requirementApolloId": "soc2-P 6.7"
+    },
+    {
+      "controlIdentifier": "privacy-inquiries-handled",
+      "controlTitle": "Privacy inquiries handled",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 4.3",
+      "requirementApolloId": "soc2-P 4.3"
+    },
+    {
+      "controlIdentifier": "privacy-inquiries-handled",
+      "controlTitle": "Privacy inquiries handled",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 6.7",
+      "requirementApolloId": "soc2-P 6.7"
+    },
+    {
+      "controlIdentifier": "privacy-sensitive-data-disposal",
+      "controlTitle": "Personal information securely disposed",
+      "frameworkCode": "SOC2",
+      "requirementIdentifier": "P 4.3",
+      "requirementApolloId": "soc2-P 4.3"
+    }
+  ]
+}

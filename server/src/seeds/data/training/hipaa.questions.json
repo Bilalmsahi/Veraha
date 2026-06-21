@@ -1,0 +1,782 @@
+[
+  {
+    "id": "HIPAA-001",
+    "text": "HIPAA was originally signed into law in what year?",
+    "difficulty": "easy",
+    "topic": "HIPAA Overview",
+    "options": [
+      {
+        "id": "a",
+        "text": "1986"
+      },
+      {
+        "id": "b",
+        "text": "1996"
+      },
+      {
+        "id": "c",
+        "text": "2003"
+      },
+      {
+        "id": "d",
+        "text": "2009"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "HIPAA was signed into law in 1996. While the Privacy Rule and Security Rule were finalized in subsequent years, the foundational law dates to 1996. The HITECH Act, which strengthened HIPAA, was enacted in 2009."
+  },
+  {
+    "id": "HIPAA-002",
+    "text": "Which of the following is considered a Covered Entity under HIPAA?",
+    "difficulty": "easy",
+    "topic": "HIPAA Overview",
+    "options": [
+      {
+        "id": "a",
+        "text": "A software company that builds general-purpose databases"
+      },
+      {
+        "id": "b",
+        "text": "A hospital that transmits health information electronically"
+      },
+      {
+        "id": "c",
+        "text": "A law firm that has no clients in healthcare"
+      },
+      {
+        "id": "d",
+        "text": "A staffing agency that places workers in multiple industries"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Covered Entities include healthcare providers who transmit health information electronically (such as hospitals), health plans, and healthcare clearinghouses. A software company without a BAA, a law firm without healthcare clients, or a general staffing agency would not be Covered Entities by default."
+  },
+  {
+    "id": "HIPAA-003",
+    "text": "A cloud storage provider hosts electronic patient records for a hospital. Under HIPAA, what is this cloud provider's classification?",
+    "difficulty": "medium",
+    "topic": "HIPAA Overview",
+    "options": [
+      {
+        "id": "a",
+        "text": "Covered Entity"
+      },
+      {
+        "id": "b",
+        "text": "Business Associate"
+      },
+      {
+        "id": "c",
+        "text": "Healthcare Clearinghouse"
+      },
+      {
+        "id": "d",
+        "text": "They have no HIPAA classification since they only store data"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A cloud storage provider that maintains ePHI on behalf of a covered entity is a Business Associate under HIPAA. A signed Business Associate Agreement (BAA) must be in place before any PHI is stored with them."
+  },
+  {
+    "id": "HIPAA-004",
+    "text": "Under the HITECH Act, what is the maximum annual penalty for violations in the 'willful neglect, not corrected' tier?",
+    "difficulty": "hard",
+    "topic": "HIPAA Overview",
+    "options": [
+      {
+        "id": "a",
+        "text": "$10,000 per violation, up to $250,000 annually"
+      },
+      {
+        "id": "b",
+        "text": "$50,000 per violation, up to $1.9 million annually"
+      },
+      {
+        "id": "c",
+        "text": "$100,000 per violation, up to $5 million annually"
+      },
+      {
+        "id": "d",
+        "text": "$1 million per violation, no annual cap"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The most severe HIPAA penalty tier (willful neglect, not corrected) carries penalties of $50,000 or more per violation, with an annual cap of $1.9 million per violation category. These penalties are cumulative and can reach tens of millions for widespread non-compliance."
+  },
+  {
+    "id": "HIPAA-005",
+    "text": "How many specific identifiers does HIPAA list that — when combined with health information — constitute PHI?",
+    "difficulty": "easy",
+    "topic": "PHI",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "14"
+      },
+      {
+        "id": "c",
+        "text": "18"
+      },
+      {
+        "id": "d",
+        "text": "25"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "HIPAA identifies 18 specific identifiers that, when combined with health information, constitute Protected Health Information (PHI). These range from names and addresses to biometric identifiers and IP addresses."
+  },
+  {
+    "id": "HIPAA-006",
+    "text": "Which of the following is NOT considered PHI?",
+    "difficulty": "medium",
+    "topic": "PHI",
+    "options": [
+      {
+        "id": "a",
+        "text": "An email with a patient's name and appointment date"
+      },
+      {
+        "id": "b",
+        "text": "A spreadsheet showing that 500 patients were treated for diabetes last quarter (no names or identifiers)"
+      },
+      {
+        "id": "c",
+        "text": "A patient's fax number along with their diagnosis"
+      },
+      {
+        "id": "d",
+        "text": "A photo taken of a patient during treatment that shows their face"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Aggregate statistical data that does not identify individuals is not PHI. If information cannot reasonably be used to identify a specific person, it falls outside HIPAA's protection. All other options contain identifiers linked to health information."
+  },
+  {
+    "id": "HIPAA-007",
+    "text": "A patient's name appears in a company directory. Is this PHI?",
+    "difficulty": "medium",
+    "topic": "PHI",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, because names are one of the 18 HIPAA identifiers"
+      },
+      {
+        "id": "b",
+        "text": "No, because a name alone without health information is not PHI"
+      },
+      {
+        "id": "c",
+        "text": "Yes, if the person has ever been a patient"
+      },
+      {
+        "id": "d",
+        "text": "Only if the name is combined with their address"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "PHI requires two elements: an identifier AND health-related information. A name alone, without accompanying health information, is not PHI. However, a name combined with a diagnosis, appointment date, treatment record, or other health-related information IS PHI."
+  },
+  {
+    "id": "HIPAA-008",
+    "text": "Which of the following is an example of ePHI?",
+    "difficulty": "easy",
+    "topic": "ePHI",
+    "options": [
+      {
+        "id": "a",
+        "text": "A paper chart stored in a locked filing cabinet"
+      },
+      {
+        "id": "b",
+        "text": "A verbal conversation between two doctors in a private office"
+      },
+      {
+        "id": "c",
+        "text": "A patient record stored in an Electronic Health Record system"
+      },
+      {
+        "id": "d",
+        "text": "A handwritten prescription on a pad"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "ePHI is PHI that exists in electronic form — created, received, maintained, or transmitted electronically. EHR records are a primary example of ePHI. Paper charts and verbal communications are PHI but not ePHI specifically."
+  },
+  {
+    "id": "HIPAA-009",
+    "text": "What does the Minimum Necessary Rule require?",
+    "difficulty": "easy",
+    "topic": "Minimum Necessary Rule",
+    "options": [
+      {
+        "id": "a",
+        "text": "That organizations collect the minimum amount of PHI possible from patients"
+      },
+      {
+        "id": "b",
+        "text": "That employees access, share, or request only the PHI needed for the specific task at hand"
+      },
+      {
+        "id": "c",
+        "text": "That no more than the minimum required number of employees have HIPAA training"
+      },
+      {
+        "id": "d",
+        "text": "That PHI is stored for the minimum necessary period"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Minimum Necessary Rule requires that when using or disclosing PHI, employees access and share only the minimum amount needed to accomplish the intended purpose. It limits unnecessary exposure of PHI even among authorized users."
+  },
+  {
+    "id": "HIPAA-010",
+    "text": "A billing specialist is curious about what a celebrity patient was admitted for after seeing their name on a schedule. They access the patient's full medical record. This is BEST described as:",
+    "difficulty": "medium",
+    "topic": "Minimum Necessary Rule",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acceptable, since they are an authorized employee with system access"
+      },
+      {
+        "id": "b",
+        "text": "A Minimum Necessary Rule violation and potentially criminal HIPAA violation"
+      },
+      {
+        "id": "c",
+        "text": "A minor policy issue but not a HIPAA violation"
+      },
+      {
+        "id": "d",
+        "text": "Acceptable only if they do not share the information with anyone"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Accessing PHI out of curiosity — without a legitimate job-related reason — violates the Minimum Necessary Rule and HIPAA's prohibition on unauthorized access to PHI. This is also potentially a criminal HIPAA violation. System access rights do not equal authorization to access any record."
+  },
+  {
+    "id": "HIPAA-011",
+    "text": "A physician is treating a patient for a knee injury. Which of the following disclosures does the Minimum Necessary Rule apply to?",
+    "difficulty": "hard",
+    "topic": "Minimum Necessary Rule",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sharing the patient's complete record with the treating orthopedic surgeon"
+      },
+      {
+        "id": "b",
+        "text": "Sharing the patient's diagnosis code with their health insurance company for billing"
+      },
+      {
+        "id": "c",
+        "text": "Sharing the patient's complete record with a marketing company to send them health tips"
+      },
+      {
+        "id": "d",
+        "text": "Responding to the patient's own request for a copy of their medical records"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Minimum Necessary Rule applies to disclosures to third parties, including marketing companies. Disclosures to treating physicians, for billing with relevant codes, and directly to the patient are either exempt from the rule or have specific provisions. Marketing disclosures require patient authorization AND are subject to minimum necessary."
+  },
+  {
+    "id": "HIPAA-012",
+    "text": "How often must HIPAA training be provided to workforce members?",
+    "difficulty": "easy",
+    "topic": "Administrative Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "Once, at the time of hire"
+      },
+      {
+        "id": "b",
+        "text": "Every three years"
+      },
+      {
+        "id": "c",
+        "text": "When hired and at least annually thereafter, plus when policies change"
+      },
+      {
+        "id": "d",
+        "text": "Only when a breach occurs"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "HIPAA requires training when employees are first hired and periodically thereafter — best practice and most organizational policies require annual training. Training must also be provided when policies and procedures materially change."
+  },
+  {
+    "id": "HIPAA-013",
+    "text": "What is a Business Associate Agreement (BAA) and when is it required?",
+    "difficulty": "medium",
+    "topic": "Administrative Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "A BAA is an internal HR policy required for all employees who handle PHI"
+      },
+      {
+        "id": "b",
+        "text": "A BAA is a signed contract required before sharing PHI with any external vendor that performs services involving PHI on behalf of a covered entity"
+      },
+      {
+        "id": "c",
+        "text": "A BAA is a government registration form required before a company can operate in healthcare"
+      },
+      {
+        "id": "d",
+        "text": "A BAA is an internal audit report documenting PHI access logs"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A Business Associate Agreement is a legally required contract between a covered entity and a business associate that specifies the permitted uses of PHI and the safeguards required. It must be in place BEFORE any PHI is shared with the third party."
+  },
+  {
+    "id": "HIPAA-014",
+    "text": "HIPAA requires that each workforce member who accesses ePHI must have what?",
+    "difficulty": "medium",
+    "topic": "Technical Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "A shared departmental login for efficiency"
+      },
+      {
+        "id": "b",
+        "text": "A unique user identifier (username) and individual authentication"
+      },
+      {
+        "id": "c",
+        "text": "A biometric scanner to access all systems"
+      },
+      {
+        "id": "d",
+        "text": "Physical keys to the server room"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "HIPAA's Technical Safeguards require unique user identification — each workforce member must have a unique username or ID to access ePHI systems. Shared accounts are prohibited because they make audit trails unreliable and violate individual accountability."
+  },
+  {
+    "id": "HIPAA-015",
+    "text": "What is the PRIMARY reason HIPAA audit logs of ePHI access are maintained?",
+    "difficulty": "easy",
+    "topic": "Technical Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "To track employee productivity"
+      },
+      {
+        "id": "b",
+        "text": "To detect and investigate unauthorized or inappropriate access to PHI"
+      },
+      {
+        "id": "c",
+        "text": "To back up patient records in case of system failure"
+      },
+      {
+        "id": "d",
+        "text": "To generate billing reports for insurance companies"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Audit controls under HIPAA's Technical Safeguards are designed to record and examine activity in ePHI systems, enabling detection of unauthorized access, inappropriate access, and potential breaches. These logs are a critical investigation tool."
+  },
+  {
+    "id": "HIPAA-016",
+    "text": "Under HIPAA, if a laptop containing ePHI is stolen but the hard drive was fully encrypted with NIST-approved encryption and the encryption key was not compromised, what is the likely outcome?",
+    "difficulty": "hard",
+    "topic": "Technical Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "Full breach notification is still required regardless of encryption"
+      },
+      {
+        "id": "b",
+        "text": "The organization is not required to provide breach notification because the data is considered unreadable"
+      },
+      {
+        "id": "c",
+        "text": "Notification is required only for patients in the state where the theft occurred"
+      },
+      {
+        "id": "d",
+        "text": "The organization must pay a fine but notification is not required"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "HIPAA's Breach Notification Safe Harbor states that breaches of properly encrypted data do not trigger notification requirements, because the data cannot be accessed by an unauthorized party. This is a major compliance and financial incentive for encryption."
+  },
+  {
+    "id": "HIPAA-017",
+    "text": "What is the HIPAA-recommended maximum screen inactivity timeout for workstations accessing ePHI?",
+    "difficulty": "easy",
+    "topic": "Physical Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 minutes"
+      },
+      {
+        "id": "b",
+        "text": "15 minutes"
+      },
+      {
+        "id": "c",
+        "text": "30 minutes"
+      },
+      {
+        "id": "d",
+        "text": "60 minutes"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "HIPAA recommends automatic logoff after 15 minutes or fewer of inactivity for workstations that access ePHI. This prevents unauthorized individuals from accessing patient records when a staff member steps away."
+  },
+  {
+    "id": "HIPAA-018",
+    "text": "An organization is decommissioning old computers that were used to process patient records. What is the correct approach for the hard drives?",
+    "difficulty": "medium",
+    "topic": "Physical Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "Delete all files and donate the computers to charity"
+      },
+      {
+        "id": "b",
+        "text": "Format the drives and give them to employees"
+      },
+      {
+        "id": "c",
+        "text": "Physically destroy or cryptographically wipe the drives using NIST-approved methods before disposal"
+      },
+      {
+        "id": "d",
+        "text": "Remove the drives and store them in a secure room indefinitely"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "HIPAA requires secure disposal of hardware and media containing ePHI. Simply deleting files or formatting drives does not securely erase data — it can be recovered. NIST-approved methods include physical destruction (shredding, degaussing) or certified cryptographic wiping."
+  },
+  {
+    "id": "HIPAA-019",
+    "text": "Which communication method is generally NOT acceptable for transmitting PHI without additional safeguards?",
+    "difficulty": "easy",
+    "topic": "Secure Communications",
+    "options": [
+      {
+        "id": "a",
+        "text": "Encrypted email using an approved platform"
+      },
+      {
+        "id": "b",
+        "text": "HIPAA-compliant secure messaging application"
+      },
+      {
+        "id": "c",
+        "text": "Standard, unencrypted SMS text message from a personal phone"
+      },
+      {
+        "id": "d",
+        "text": "Secure fax with a confidentiality cover sheet"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Standard SMS from a personal device is not an appropriate channel for PHI. It is unencrypted, not covered by organizational safeguards, and if the device is lost or compromised, the PHI is exposed. Only HIPAA-compliant secure messaging applications should be used."
+  },
+  {
+    "id": "HIPAA-020",
+    "text": "Two nurses are eating lunch in the hospital cafeteria and discussing a patient's unusual diagnosis using the patient's full name. Is this a HIPAA violation?",
+    "difficulty": "medium",
+    "topic": "Secure Communications",
+    "options": [
+      {
+        "id": "a",
+        "text": "No, because both nurses are authorized workforce members"
+      },
+      {
+        "id": "b",
+        "text": "No, because this is verbal communication, not electronic"
+      },
+      {
+        "id": "c",
+        "text": "Yes, because PHI is being disclosed in a public area where unauthorized individuals could hear"
+      },
+      {
+        "id": "d",
+        "text": "Only if a patient overhears them"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "HIPAA covers verbal disclosures of PHI, not just electronic. Discussing patient information in a public area where unauthorized individuals may overhear is a HIPAA violation regardless of who the speakers are. Private spaces must be used for clinical discussions."
+  },
+  {
+    "id": "HIPAA-021",
+    "text": "An employee knowingly discloses PHI to a pharmaceutical company in exchange for personal payment. Under HIPAA, what is the MOST severe potential consequence?",
+    "difficulty": "hard",
+    "topic": "HIPAA Violations",
+    "options": [
+      {
+        "id": "a",
+        "text": "A written warning from HR"
+      },
+      {
+        "id": "b",
+        "text": "A civil fine of up to $50,000"
+      },
+      {
+        "id": "c",
+        "text": "Criminal prosecution with potential imprisonment of up to 10 years"
+      },
+      {
+        "id": "d",
+        "text": "Required completion of additional HIPAA training"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Knowingly disclosing PHI for personal gain is a criminal HIPAA violation under 42 U.S.C. § 1320d-6. The most severe tier — offenses committed for commercial advantage, personal gain, or malicious harm — carries imprisonment of up to 10 years, plus fines."
+  },
+  {
+    "id": "HIPAA-022",
+    "text": "A clinical staff member posts a photo on their personal Instagram from inside the treatment area. The photo shows medical equipment in the background. No patients are visible. Is this a HIPAA violation?",
+    "difficulty": "medium",
+    "topic": "HIPAA Violations",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, any photos from treatment areas are HIPAA violations"
+      },
+      {
+        "id": "b",
+        "text": "No, because no patient information or identifiers are visible"
+      },
+      {
+        "id": "c",
+        "text": "Potentially — it depends on whether any PHI is visible in the background"
+      },
+      {
+        "id": "d",
+        "text": "Only if the post is set to public visibility"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "This situation requires careful analysis. If no PHI is visible (no patient identifiers, no patient information on whiteboards, monitors, or charts), it may not be a HIPAA violation but may still violate organizational policy. If any PHI is visible — even partially — it is a HIPAA violation. Always review photos carefully before posting from clinical settings."
+  },
+  {
+    "id": "HIPAA-023",
+    "text": "Within how many days must affected individuals be notified of a confirmed HIPAA breach?",
+    "difficulty": "easy",
+    "topic": "Breach Reporting",
+    "options": [
+      {
+        "id": "a",
+        "text": "24 hours"
+      },
+      {
+        "id": "b",
+        "text": "30 days"
+      },
+      {
+        "id": "c",
+        "text": "60 days"
+      },
+      {
+        "id": "d",
+        "text": "90 days"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "HIPAA's Breach Notification Rule requires that affected individuals be notified within 60 days of the date the breach is discovered. For breaches affecting 500+ individuals, HHS and potentially media must also be notified within 60 days."
+  },
+  {
+    "id": "HIPAA-024",
+    "text": "You accidentally email a spreadsheet containing 15 patient names and appointment dates to the wrong address. What should you do FIRST?",
+    "difficulty": "medium",
+    "topic": "Breach Reporting",
+    "options": [
+      {
+        "id": "a",
+        "text": "Send a follow-up email to the recipient asking them to delete it"
+      },
+      {
+        "id": "b",
+        "text": "Report the incident immediately to the Privacy Officer / Compliance team"
+      },
+      {
+        "id": "c",
+        "text": "Wait and see if the recipient responds before escalating"
+      },
+      {
+        "id": "d",
+        "text": "Log the event in a personal notebook for future reference"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Accidental disclosure of PHI to an unauthorized recipient is a potential HIPAA breach that must be reported immediately to the Privacy Officer/Compliance team. They will conduct a breach risk assessment. Waiting, self-resolving, or delaying reporting undermines the organization's ability to meet its 60-day notification obligation."
+  },
+  {
+    "id": "HIPAA-025",
+    "text": "What is HIPAA's 'four-factor test' used to determine?",
+    "difficulty": "hard",
+    "topic": "Breach Reporting",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether an employee should be terminated for a HIPAA violation"
+      },
+      {
+        "id": "b",
+        "text": "Whether a security incident constitutes a reportable breach"
+      },
+      {
+        "id": "c",
+        "text": "Which tier of penalty applies to a given violation"
+      },
+      {
+        "id": "d",
+        "text": "Whether a vendor requires a Business Associate Agreement"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The four-factor test is used to assess whether a security incident rises to the level of a reportable breach. Factors include: (1) nature and extent of PHI, (2) who accessed it, (3) whether it was actually viewed, and (4) whether risk has been mitigated. If low probability of compromise, breach notification may not be required."
+  },
+  {
+    "id": "HIPAA-026",
+    "text": "How long is the certification for HIPAA training valid before renewal is required?",
+    "difficulty": "easy",
+    "topic": "Workforce Responsibilities",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 months"
+      },
+      {
+        "id": "b",
+        "text": "12 months (1 year)"
+      },
+      {
+        "id": "c",
+        "text": "24 months (2 years)"
+      },
+      {
+        "id": "d",
+        "text": "Indefinitely, unless policies change"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "HIPAA training must be refreshed at least annually. Best practice and most organizational policies require annual renewal. This ensures workforce members remain current on evolving threats, updated policies, and regulatory guidance."
+  },
+  {
+    "id": "HIPAA-027",
+    "text": "A patient calls and requests a copy of their medical records. Within how many days must the organization respond to this request?",
+    "difficulty": "medium",
+    "topic": "Patient Privacy Rights",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 business days"
+      },
+      {
+        "id": "b",
+        "text": "15 days"
+      },
+      {
+        "id": "c",
+        "text": "30 days (with one 30-day extension permitted)"
+      },
+      {
+        "id": "d",
+        "text": "60 days"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Under HIPAA's Right of Access, individuals must receive their requested records within 30 days. If the organization cannot meet this deadline, one 30-day extension is permitted with written notice to the patient explaining the reason for delay."
+  },
+  {
+    "id": "HIPAA-028",
+    "text": "A patient's adult child calls and asks for their parent's medical records, explaining that they help manage their parent's healthcare. Without written patient authorization, what can the organization disclose?",
+    "difficulty": "medium",
+    "topic": "Patient Privacy Rights",
+    "options": [
+      {
+        "id": "a",
+        "text": "The complete medical record, since the child assists with care"
+      },
+      {
+        "id": "b",
+        "text": "A summary of recent treatments"
+      },
+      {
+        "id": "c",
+        "text": "Nothing — PHI can only be disclosed to the adult patient without their written authorization"
+      },
+      {
+        "id": "d",
+        "text": "Contact information and appointment dates only"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "PHI may only be disclosed to third parties — including family members — without the patient's written authorization in specific circumstances (e.g., the patient is incapacitated or has specifically authorized verbal communication). An adult patient's family member cannot receive records without written authorization or designation as a personal representative."
+  },
+  {
+    "id": "HIPAA-029",
+    "text": "A physician leaves the organization. How quickly should their access to ePHI systems be revoked?",
+    "difficulty": "hard",
+    "topic": "Access Controls",
+    "options": [
+      {
+        "id": "a",
+        "text": "Within 30 days of their departure"
+      },
+      {
+        "id": "b",
+        "text": "At the next quarterly access review"
+      },
+      {
+        "id": "c",
+        "text": "Immediately upon termination or as quickly as administratively possible"
+      },
+      {
+        "id": "d",
+        "text": "After they have completed all pending patient documentation"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "HIPAA's administrative safeguards require termination procedures that include prompt revocation of ePHI access when employment ends. Best practice and most policies require same-day revocation. Delayed revocation creates risk of unauthorized access and potential HIPAA violation."
+  },
+  {
+    "id": "HIPAA-030",
+    "text": "An organization does not have a signed BAA with a cloud storage vendor that stores patient records. A breach occurs at the vendor. Who is liable?",
+    "difficulty": "medium",
+    "topic": "Administrative Safeguards",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the cloud vendor, since the breach occurred on their systems"
+      },
+      {
+        "id": "b",
+        "text": "Neither party, since the vendor was responsible for their own security"
+      },
+      {
+        "id": "c",
+        "text": "The covered entity may be held liable for failing to have a required BAA in place"
+      },
+      {
+        "id": "d",
+        "text": "Only HHS is responsible for enforcement"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Covered entities are required to obtain signed BAAs before sharing PHI with business associates. Failure to have a BAA is itself a HIPAA violation — and when a breach occurs, the covered entity may face penalties for the missing BAA in addition to any breach-related violations."
+  }
+]

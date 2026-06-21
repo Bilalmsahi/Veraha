@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Public facing privacy policy is inaccurate, omits critical information, and/or is out of date.",
+    "description": "An inaccurate privacy policy can cause: Regulatory penalties (HIPAA, GDPR, state privacy laws), Breach of transparency obligations, Misrepresentation to users, Legal claims, Loss of trust.",
+    "categoryNames": ["Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Risks to privacy principles (DPIA) have not been assessed and/or mitigated.",
+    "description": "Not performing DPIAs can lead to: Unidentified high-risk processing of PHI/PII, Undetected compliance gaps, Increased risk of data breaches, Penalties under GDPR, Weak HIPAA safeguards.",
+    "categoryNames": ["Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Subject access and deletion requests are not addressed within required timeframes.",
+    "description": "Failure to meet timeframes results in: Regulatory enforcement, Fines, Patient complaints, Loss of trust, Legal exposure.",
+    "categoryNames": ["Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Consent for processing of PII is not captured and can't be demonstrated when needed.",
+    "description": "Missing consent leads to: Legal non-compliance, Fines and penalties, Inability to respond to patient requests or complaints, Reputational damage.",
+    "categoryNames": ["Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Insufficient internal record keeping is not compliant with privacy laws.",
+    "description": "A failure in privacy-related records can result in: Regulatory findings, Fines, Inability to demonstrate compliance, Increased liability during a breach.",
+    "categoryNames": ["Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Databases - Sensitive data stored in plain text",
+    "description": "Sensitive data is not encrypted at rest.",
+    "categoryNames": ["Cryptography"],
+    "isGlobal": true
+  },
+  {
+    "title": "Company records are altered due to lack of proper access controls, segregation of duties, and/or supervision.",
+    "description": "All data stored on production databases are available only for the head of engineering and the CEO.",
+    "categoryNames": ["Fraud"],
+    "isGlobal": true
+  },
+  {
+    "title": "Entrances - Physical security: No offices",
+    "description": "The company operates fully remotely without a centralized physical office.",
+    "categoryNames": ["Physical and environmental security"],
+    "isGlobal": true
+  },
+  {
+    "title": "Personnel fraudulently pay \"ghost employees\" due to lack of segregation, approvals and/or oversight in the payroll process.",
+    "description": "Payment process is conducted by Operations Manager, Heads of Departments and validated by the controller before any payment is released.",
+    "categoryNames": ["Fraud"],
+    "isGlobal": true
+  },
+  {
+    "title": "Authentication mechanisms - Your codebase: codebase exposed",
+    "description": "Implemented role-based access control (RBAC) and multi-factor authentication (MFA) for your code repositories. Regular code reviews to check for any sensitive data.",
+    "categoryNames": ["Access control", "Information security policies"],
+    "isGlobal": true
+  },
+  {
+    "title": "Codebase security - Your codebase: Access compromised",
+    "description": "Implement role-based access controls (RBAC) and require multi-factor authentication (MFA) for all users accessing the codebase.",
+    "categoryNames": ["Software development and acquisition"],
+    "isGlobal": true
+  },
+  {
+    "title": "Storage buckets - Sensitive data or additional customer files stored in cloud buckets.",
+    "description": "Sensitive customer data is stored in cloud infrastructure without proper bucket policies.",
+    "categoryNames": ["Cryptography"],
+    "isGlobal": true
+  },
+  {
+    "title": "Financial tools - People: Financial exposed",
+    "description": "Encryption protocols are in place for protecting financial data. Limiting access to financial data to essential personnel only.",
+    "categoryNames": ["Fraud"],
+    "isGlobal": true
+  },
+  {
+    "title": "Intrusions, breaches, and anomalous events cannot be investigated.",
+    "description": "The SIEM tool is partially implemented and integrated with critical systems. Drafted the plan to outline roles, responsibilities, and steps for incident handling.",
+    "categoryNames": ["Operations security"],
+    "isGlobal": true
+  },
+  {
+    "title": "Cyber insurance not purchased leading to the organization being directly responsible for all costs incurred.",
+    "description": "Regularly review the terms of your cyber insurance policy to ensure that it covers all potential risks, including forensics, litigation, and recovery costs.",
+    "categoryNames": ["Incident response management"],
+    "isGlobal": true
+  },
+  {
+    "title": "Company systems and data are breached by unauthorized persons via a vulnerability in non-production systems or networks.",
+    "description": "Vulnerability Management: Implemented - regular updates and patching procedures are in place. Network Segmentation: Implemented.",
+    "categoryNames": ["Operations security"],
+    "isGlobal": true
+  },
+  {
+    "title": "Background verification checks are not carried out on all candidates or are not proportional to the business requirements.",
+    "description": "Conditional Access Controls restricting access for new hires until background checks are verified. Increased risk of malicious insider threats.",
+    "categoryNames": ["People operations"],
+    "isGlobal": true
+  },
+  {
+    "title": "Unmanaged vendor could lead to supply chain vulnerabilities",
+    "description": "Third-party vendors accessing sensitive data without a completed security review.",
+    "categoryNames": ["Vendor relationships"],
+    "isGlobal": true
+  },
+  {
+    "title": "Failure to identify critical risks to ISMS",
+    "description": "Risk assessment is incomplete, leaving critical assets unassessed and unassigned to risk owners.",
+    "categoryNames": ["Compliance", "Information security policies"],
+    "isGlobal": true
+  },
+  {
+    "title": "Appropriate contacts are not maintained resulting in delays in breach response and reporting.",
+    "description": "Lack of updated communication chains slows down incident response during a live breach.",
+    "categoryNames": ["Information security operations"],
+    "isGlobal": true
+  },
+  {
+    "title": "Appropriate contacts with interest groups are not maintained resulting in a lack of understanding of current threats.",
+    "description": "Failure to stay up to date with threat intelligence communities limits the ability to proactively defend against zero-day exploits.",
+    "categoryNames": ["Information security operations"],
+    "isGlobal": true
+  },
+  {
+    "title": "Assets are not identified and protected according to company requirements.",
+    "description": "Lack of a centralized asset inventory leads to shadow IT and unprotected endpoints on the network.",
+    "categoryNames": ["Asset management"],
+    "isGlobal": true
+  },
+  {
+    "title": "Company data is breached due to human error and/or misunderstanding of company requirements.",
+    "description": "Employees unintentionally expose sensitive data through misconfigured sharing settings or falling victim to phishing.",
+    "categoryNames": ["Operations security"],
+    "isGlobal": true
+  },
+  {
+    "title": "Company data is breached during a disaster due to control failures.",
+    "description": "Failover and disaster recovery environments do not maintain the same strict access controls as production environments.",
+    "categoryNames": ["Business continuity and disaster recovery"],
+    "isGlobal": true
+  },
+  {
+    "title": "Company data is breached, corrupted or made unavailable due to a malware attack.",
+    "description": "Ransomware or destructive malware infects the company network, encrypting or exfiltrating sensitive databases.",
+    "categoryNames": ["Operations security"],
+    "isGlobal": true
+  },
+  {
+    "title": "Company data is unavailable when needed.",
+    "description": "Downtime caused by system misconfiguration, hardware failure, or lack of redundancy.",
+    "categoryNames": ["Operations security"],
+    "isGlobal": true
+  },
+  {
+    "title": "Software does not work following operating system upgrade.",
+    "description": "Critical legacy applications break due to forced or unmanaged OS patching across the fleet.",
+    "categoryNames": ["Software development and acquisition"],
+    "isGlobal": true
+  },
+  {
+    "title": "Staff acquire, use, or dispose of assets in an unauthorized manner.",
+    "description": "Employees purchase unauthorized software tools (shadow IT) or throw away unencrypted hard drives without going through IT.",
+    "categoryNames": ["People operations", "Asset management"],
+    "isGlobal": true
+  },
+  {
+    "title": "Staff are not aware of security threats and best practices resulting in a compromise of company systems and data.",
+    "description": "Lack of annual or ongoing security awareness training leads to successful social engineering attacks.",
+    "categoryNames": ["People operations"],
+    "isGlobal": true
+  },
+  {
+    "title": "Subject Access Request (SAR) process is not established and communicated leading to privacy violation.",
+    "description": "No formal pipeline exists for users to request access, correction, or deletion of their personal data.",
+    "categoryNames": ["Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Systems are unavailable due to unforeseen capacity constraints.",
+    "description": "Surges in traffic or poor resource allocation cause critical application outages (e.g., lack of auto-scaling).",
+    "categoryNames": ["Operations security"],
+    "isGlobal": true
+  },
+  {
+    "title": "The company violates encryption export regulations resulting in fines, lost business and brand damage.",
+    "description": "Deploying strong encryption technologies across international borders without necessary compliance checks.",
+    "categoryNames": ["Compliance"],
+    "isGlobal": true
+  },
+  {
+    "title": "The company violates legal and contractual commitments leading to fines and/or loss of business.",
+    "description": "Failure to maintain agreed-upon security postures (like SOC 2 or ISO 27001) as stipulated in enterprise master service agreements.",
+    "categoryNames": ["Compliance"],
+    "isGlobal": true
+  },
+  {
+    "title": "The company violates the privacy rights of consumers and/or data subjects resulting in fines, lost business and brand damage.",
+    "description": "Unauthorized sale or transfer of user data, or failure to properly anonymize data sets used for analytics.",
+    "categoryNames": ["Compliance", "Privacy"],
+    "isGlobal": true
+  },
+  {
+    "title": "Vulnerabilities and root causes leading to breaches and outages are not addressed and remediated.",
+    "description": "Incident response concludes without a proper post-mortem, allowing the same vulnerability to be exploited again.",
+    "categoryNames": ["Information security operations"],
+    "isGlobal": true
+  },
+  {
+    "title": "Vulnerabilities are introduced by developers resulting in a compromise of company systems and/or data.",
+    "description": "Poor coding practices, lack of static/dynamic application security testing (SAST/DAST), and skipped peer reviews.",
+    "categoryNames": ["Software development and acquisition"],
+    "isGlobal": true
+  }
+]

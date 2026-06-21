@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+public/tinymce
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+FRONTEND_PROJECT_CONTEXT.md
+
+PROJECT PRD.md
+PROJECT_CONTEXT.md
+PROJECT_PROGRESS_REPORT.md
+PROJECT_PROGRESS_REPORT.md
+
+.cursorrules_frontend
+
+.agents
+
+.env

@@ -1,0 +1,57 @@
+[
+  {
+    "moduleKey": "ISO_SOC2",
+    "version": 1,
+    "title": "Security Awareness Training: Protecting Our Organization",
+    "description": "Foundational security awareness aligned with SOC 2 Trust Service Criteria and ISO 27001:2022 — threats, passwords, data handling, and incident reporting.",
+    "frameworkTags": [
+      "ISO27001",
+      "SOC2"
+    ],
+    "estimatedReadMinutes": 50,
+    "contentFile": "iso-soc2.md",
+    "questionsFile": "iso-soc2.questions.json",
+    "quiz": {
+      "passingScore": 0.8,
+      "maxAttempts": 3,
+      "retryDelayHours": 24,
+      "questionsPerAttempt": 6
+    }
+  },
+  {
+    "moduleKey": "HIPAA",
+    "version": 1,
+    "title": "HIPAA Security & Privacy Awareness: Protecting Health Information",
+    "description": "HIPAA Privacy and Security Rules, PHI handling, minimum necessary, breaches, and workforce responsibilities.",
+    "frameworkTags": [
+      "HIPAA"
+    ],
+    "estimatedReadMinutes": 50,
+    "contentFile": "hipaa.md",
+    "questionsFile": "hipaa.questions.json",
+    "quiz": {
+      "passingScore": 0.8,
+      "maxAttempts": 3,
+      "retryDelayHours": 24,
+      "questionsPerAttempt": 6
+    }
+  },
+  {
+    "moduleKey": "GDPR",
+    "version": 1,
+    "title": "GDPR Data Protection Awareness: Your Guide to Responsible Data Handling",
+    "description": "GDPR principles, lawful processing, data subject rights, breaches, and privacy by design for everyday work.",
+    "frameworkTags": [
+      "GDPR"
+    ],
+    "estimatedReadMinutes": 50,
+    "contentFile": "gdpr.md",
+    "questionsFile": "gdpr.questions.json",
+    "quiz": {
+      "passingScore": 0.8,
+      "maxAttempts": 3,
+      "retryDelayHours": 24,
+      "questionsPerAttempt": 6
+    }
+  }
+]

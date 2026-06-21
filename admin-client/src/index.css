@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* =============================================================================
+   Veraha Security – Semantic variable mappings for Tailwind
+   All values are defined in :root and .dark below.
+   ============================================================================= */
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* =============================================================================
+   LIGHT MODE – Premium paper feel, Fresh Bright Teal accents
+   Background: Ultra Light Sand | Primary: Teal | Text: Deep Slate/Teal
+   ============================================================================= */
+:root {
+  color-scheme: light;
+  --radius: 0.625rem;
+  /* Core surfaces */
+  --background: #fdfbf7;
+  --foreground: #162223;
+  --card: #ffffff;
+  --card-foreground: #162223;
+  --popover: #ffffff;
+  --popover-foreground: #162223;
+  /* Primary = Fresh Bright Teal (buttons, active states, progress bars) */
+  --primary: #409ba1;
+  --primary-foreground: #fdfbf7;
+  /* Secondary & muted */
+  --secondary: #f4f1ea;
+  --secondary-foreground: #162223;
+  --muted: #f4f1ea;
+  --muted-foreground: #3a5255;
+  /* Accent follows primary in light mode */
+  --accent: #409ba1;
+  --accent-foreground: #fdfbf7;
+  /* Destructive, borders, inputs */
+  --destructive: #e5484d;
+  --border: #d0d7de;
+  --input: #e8e6e1;
+  --ring: #409ba1;
+  /* Sidebar: slightly darker sand for separation */
+  --sidebar: #f4f1ea;
+  --sidebar-foreground: #162223;
+  --sidebar-primary: #409ba1;
+  --sidebar-primary-foreground: #fdfbf7;
+  --sidebar-accent: rgba(64, 155, 161, 0.12);
+  --sidebar-accent-foreground: #162223;
+  --sidebar-border: #e8e6e1;
+  --sidebar-ring: #409ba1;
+  /* Charts – Teal-led palette */
+  --chart-1: #409ba1;
+  --chart-2: #3a5255;
+  --chart-3: #d3c6aa;
+  --chart-4: #1f9e77;
+  --chart-5: #f5a623;
+}
+
+/* =============================================================================
+   DARK MODE – Midnight Forest, Bright Beige accents
+   Teal accents swap to Beige for contrast on dark background
+   ============================================================================= */
+.dark {
+  color-scheme: dark;
+  /* Core surfaces */
+  --background: #162223;
+  --foreground: #fdfbf7;
+  --card: #1c2b2d;
+  --card-foreground: #fdfbf7;
+  --popover: #1c2b2d;
+  --popover-foreground: #fdfbf7;
+  /* Primary = Bright Beige/Sand (replaces Teal in dark mode) */
+  --primary: #d3c6aa;
+  --primary-foreground: #162223;
+  /* Secondary & muted */
+  --secondary: #1c2b2d;
+  --secondary-foreground: #fdfbf7;
+  --muted: #1c2b2d;
+  --muted-foreground: #d3c6aa;
+  /* Accent follows primary (Beige) in dark mode */
+  --accent: #d3c6aa;
+  --accent-foreground: #162223;
+  /* Destructive, borders, inputs */
+  --destructive: #e5484d;
+  --border: rgba(211, 198, 170, 0.2);
+  --input: rgba(211, 198, 170, 0.12);
+  --ring: #d3c6aa;
+  /* Sidebar: slightly lighter dark teal */
+  --sidebar: #1c2b2d;
+  --sidebar-foreground: #fdfbf7;
+  --sidebar-primary: #d3c6aa;
+  --sidebar-primary-foreground: #162223;
+  --sidebar-accent: rgba(211, 198, 170, 0.15);
+  --sidebar-accent-foreground: #fdfbf7;
+  --sidebar-border: rgba(211, 198, 170, 0.15);
+  --sidebar-ring: #d3c6aa;
+  /* Charts – Beige/Teal mix for dark mode */
+  --chart-1: #d3c6aa;
+  --chart-2: #409ba1;
+  --chart-3: #3a5255;
+  --chart-4: #1f9e77;
+  --chart-5: #f5a623;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
