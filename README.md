@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="client/public/logo-brand.png" alt="Veraha" width="280"/>
+<img src="logo-brand.png" alt="Veraha" width="280"/>
 
 ### Compliance automation, built for teams that take security seriously.
 
